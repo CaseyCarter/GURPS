@@ -4493,75 +4493,6 @@
 			}
 		},
 		{
-			"id": "ecyenh193ZoIBeVcJ",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "High Tech/High Tech Equipment.eqp",
-				"id": "etEMrb0nJU4ZJkJeY"
-			},
-			"description": "Small Tactical Light",
-			"reference": "HT52",
-			"local_notes": "25-yard beam. 2xXS/2hrs.",
-			"tech_level": "8",
-			"tags": [
-				"General Equipment"
-			],
-			"base_value": "100",
-			"base_weight": "0.25 lb",
-			"weapons": [
-				{
-					"id": "wxerPJa-vZ7rwWZm-",
-					"sv": 1,
-					"damage": {
-						"type": "cr",
-						"st": "thr"
-					},
-					"usage": "Punch",
-					"reach": "C",
-					"parry": "0",
-					"defaults": [
-						{
-							"type": "dx"
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Boxing"
-							}
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Brawling"
-							}
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Karate"
-							}
-						}
-					],
-					"calc": {
-						"level": 12,
-						"damage": "1d-3 cr",
-						"parry": "9"
-					}
-				}
-			],
-			"quantity": 1,
-			"equipped": true,
-			"calc": {
-				"value": 100,
-				"extended_value": 100,
-				"weight": "0.25 lb",
-				"extended_weight": "0.25 lb"
-			}
-		},
-		{
 			"id": "eyAfUPvCgF6FTSS6d",
 			"description": "Smart Phone",
 			"local_notes": "Complexity 2 computer. Stores 128 GB.10hrs.",
@@ -4580,6 +4511,19 @@
 				"extended_value": 250,
 				"weight": "0.5 lb",
 				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eeAybxp4tYjbJYCcY",
+			"description": "Currency (USD)",
+			"legality_class": "4",
+			"base_value": "1",
+			"quantity": 500,
+			"calc": {
+				"value": 1,
+				"extended_value": 500,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
 			}
 		},
 		{
@@ -4782,6 +4726,30 @@
 					"equipped": true,
 					"children": [
 						{
+							"id": "emyFwWWVXVLIF86rZ",
+							"source": {
+								"library": "richardwilkes/gcs_master_library",
+								"path": "High Tech/High Tech Equipment.eqp",
+								"id": "eDpwycU3319jm_aUv"
+							},
+							"description": "9x19mm Parabellum",
+							"reference": "HT176",
+							"tags": [
+								"Ammunition",
+								"Warheads"
+							],
+							"base_value": "0.3",
+							"base_weight": "0.026 lb",
+							"quantity": 1,
+							"equipped": true,
+							"calc": {
+								"value": 0.3,
+								"extended_value": 0.3,
+								"weight": "0.026 lb",
+								"extended_weight": "0.026 lb"
+							}
+						},
+						{
 							"id": "EbqYEYCbPvAJZ2Y5Q",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
@@ -4864,9 +4832,9 @@
 					],
 					"calc": {
 						"value": 568,
-						"extended_value": 756.2,
+						"extended_value": 756.5,
 						"weight": "1.4 lb",
-						"extended_weight": "2.354 lb"
+						"extended_weight": "2.38 lb"
 					}
 				},
 				{
@@ -4889,7 +4857,6 @@
 					"base_value": "32.5",
 					"base_weight": "0.21 lb",
 					"quantity": 1,
-					"equipped": true,
 					"children": [
 						{
 							"id": "eBPRPYxz35cpcSv8L",
@@ -4943,7 +4910,6 @@
 					"base_value": "32.5",
 					"base_weight": "0.21 lb",
 					"quantity": 1,
-					"equipped": true,
 					"children": [
 						{
 							"id": "edbbzdsJJPrm2LQa7",
@@ -4976,13 +4942,82 @@
 						"weight": "0.21 lb",
 						"extended_weight": "0.704 lb"
 					}
+				},
+				{
+					"id": "ecyenh193ZoIBeVcJ",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "High Tech/High Tech Equipment.eqp",
+						"id": "etEMrb0nJU4ZJkJeY"
+					},
+					"description": "Small Tactical Light",
+					"reference": "HT52",
+					"local_notes": "25-yard beam. 2xXS/2hrs.",
+					"tech_level": "8",
+					"tags": [
+						"General Equipment"
+					],
+					"base_value": "100",
+					"base_weight": "0.25 lb",
+					"weapons": [
+						{
+							"id": "wxerPJa-vZ7rwWZm-",
+							"sv": 1,
+							"damage": {
+								"type": "cr",
+								"st": "thr"
+							},
+							"usage": "Punch",
+							"reach": "C",
+							"parry": "0",
+							"defaults": [
+								{
+									"type": "dx"
+								},
+								{
+									"type": "skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Boxing"
+									}
+								},
+								{
+									"type": "skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Brawling"
+									}
+								},
+								{
+									"type": "skill",
+									"name": {
+										"compare": "is",
+										"qualifier": "Karate"
+									}
+								}
+							],
+							"calc": {
+								"level": 12,
+								"damage": "1d-3 cr",
+								"parry": "9"
+							}
+						}
+					],
+					"quantity": 1,
+					"equipped": true,
+					"calc": {
+						"value": 100,
+						"extended_value": 100,
+						"weight": "0.25 lb",
+						"extended_weight": "0.25 lb"
+					}
 				}
 			],
 			"calc": {
 				"value": 50,
-				"extended_value": 882.6,
+				"extended_value": 982.9,
 				"weight": "1 lb",
-				"extended_weight": "4.762 lb"
+				"extended_weight": "5.038 lb"
 			}
 		},
 		{
@@ -5028,6 +5063,21 @@
 			"equipped": true,
 			"children": [
 				{
+					"id": "eb1WpUA2pKU7NjyQ4",
+					"description": "Clozapine",
+					"tech_level": "8",
+					"legality_class": "4",
+					"base_value": "2.50",
+					"base_weight": "0.00220462",
+					"quantity": 30,
+					"calc": {
+						"value": 2.5,
+						"extended_value": 75,
+						"weight": "0.0022 lb",
+						"extended_weight": "0.066 lb"
+					}
+				},
+				{
 					"id": "eVfGvRD44WjTqx_-F",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -5044,7 +5094,6 @@
 					"base_value": "1500",
 					"base_weight": "3 lb",
 					"quantity": 1,
-					"equipped": true,
 					"calc": {
 						"value": 1500,
 						"extended_value": 1500,
@@ -5068,7 +5117,6 @@
 					"base_value": "50",
 					"base_weight": "0.5 lb",
 					"quantity": 1,
-					"equipped": true,
 					"calc": {
 						"value": 50,
 						"extended_value": 50,
@@ -5079,9 +5127,9 @@
 			],
 			"calc": {
 				"value": 120,
-				"extended_value": 1670,
+				"extended_value": 1745,
 				"weight": "1.5 lb",
-				"extended_weight": "5 lb"
+				"extended_weight": "5.066 lb"
 			}
 		}
 	],
@@ -5109,6 +5157,60 @@
 				"weight": "2 lb",
 				"extended_weight": "6 lb"
 			}
+		},
+		{
+			"id": "eRGRtMaWRN21nMyMT",
+			"description": "Clozapine",
+			"tech_level": "8",
+			"legality_class": "4",
+			"base_value": "2.50",
+			"base_weight": "0.00220462",
+			"quantity": 30,
+			"equipped": true,
+			"calc": {
+				"value": 2.5,
+				"extended_value": 75,
+				"weight": "0.0022 lb",
+				"extended_weight": "0.066 lb"
+			}
+		},
+		{
+			"id": "e8EmEBjtSmRrZu4Oz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eDpwycU3319jm_aUv"
+			},
+			"description": "9x19mm Parabellum",
+			"reference": "HT176",
+			"tags": [
+				"Ammunition",
+				"Warheads"
+			],
+			"base_value": "0.3",
+			"base_weight": "0.026 lb",
+			"quantity": 200,
+			"equipped": true,
+			"calc": {
+				"value": 0.3,
+				"extended_value": 60,
+				"weight": "0.026 lb",
+				"extended_weight": "5.2 lb"
+			}
+		},
+		{
+			"id": "euZTyyunRl6MN1Hx1",
+			"description": "Bank balance (USD)",
+			"legality_class": "4",
+			"base_value": "1",
+			"quantity": 6462.1,
+			"equipped": true,
+			"calc": {
+				"value": 1,
+				"extended_value": 6462.1,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
 		}
 	],
 	"notes": [
@@ -5124,7 +5226,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-08-19T16:09:12-07:00",
+	"modified_date": "2026-08-19T17:04:33-07:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
