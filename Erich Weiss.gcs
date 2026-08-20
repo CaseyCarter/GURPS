@@ -750,1349 +750,1512 @@
 			}
 		},
 		{
-			"id": "tLyE3NFJVvds7DJIG",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tW-eAzIKBWa5Yc9cI"
-			},
-			"name": "Eidetic Memory",
-			"reference": "B51",
-			"tags": [
-				"Advantage",
-				"Mental"
-			],
-			"modifiers": [
+			"id": "T2k43tD0lYbVxI7h4",
+			"name": "Super smarts",
+			"children": [
 				{
-					"id": "moaWFeKqYlc86lD0J",
-					"name": "Photographic",
+					"id": "tLyE3NFJVvds7DJIG",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tW-eAzIKBWa5Yc9cI"
+					},
+					"name": "Eidetic Memory",
 					"reference": "B51",
-					"cost_adj": "5",
-					"disabled": true
-				}
-			],
-			"base_points": 5,
-			"calc": {
-				"points": 5
-			}
-		},
-		{
-			"id": "tKuW5dxmOfCohRgbc",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqseLS-LNinGOwJ2z"
-			},
-			"name": "Language Talent",
-			"reference": "B65",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"base_points": 10,
-			"calc": {
-				"points": 10
-			}
-		},
-		{
-			"id": "tmiRP86V93CEkt2Lf",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"tags": [
+						"Advantage",
+						"Mental"
+					],
+					"modifiers": [
+						{
+							"id": "moaWFeKqYlc86lD0J",
+							"name": "Photographic",
+							"reference": "B51",
+							"cost_adj": "5",
+							"disabled": true
 						}
+					],
+					"base_points": 5,
+					"calc": {
+						"points": 5
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Arabic"
-			},
-			"modifiers": [
-				{
-					"id": "mShAql0M4Trcfo93P",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "m_BNGogE6BJBDNI6Z",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
+					"id": "tKuW5dxmOfCohRgbc",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqseLS-LNinGOwJ2z"
+					},
+					"name": "Language Talent",
+					"reference": "B65",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"base_points": 10,
+					"calc": {
+						"points": 10
+					}
 				},
 				{
-					"id": "mX0CVaqckFkYD7jSF",
-					"name": "Spoken",
+					"id": "tmiRP86V93CEkt2Lf",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mWMluSZWWL8OkeVld",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mJDMWjv6Wh4iYXlUH",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tljcTRtTYFPcnCSt5",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Arabic"
+					},
+					"modifiers": [
+						{
+							"id": "mShAql0M4Trcfo93P",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m_BNGogE6BJBDNI6Z",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mX0CVaqckFkYD7jSF",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mWMluSZWWL8OkeVld",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mJDMWjv6Wh4iYXlUH",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Cantonese"
-			},
-			"modifiers": [
-				{
-					"id": "mHm4_bW1zt8rww5uV",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "m2yUyV6CQWb4okxO5",
-					"name": "Spoken",
+					"id": "tljcTRtTYFPcnCSt5",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mSKc-0zZkvi-ySthM",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "m_rYOPC3yhdxynOdX",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mJd_lA3S3h2dLflpi",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tLoWzPZezKODuTqpl",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Cantonese"
+					},
+					"modifiers": [
+						{
+							"id": "mHm4_bW1zt8rww5uV",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m2yUyV6CQWb4okxO5",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mSKc-0zZkvi-ySthM",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "m_rYOPC3yhdxynOdX",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mJd_lA3S3h2dLflpi",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "English"
-			},
-			"modifiers": [
-				{
-					"id": "m0fJz6uipb_tJvHwu",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4"
 				},
 				{
-					"id": "mBMrbI9qjHVJLcZId",
-					"name": "Spoken",
+					"id": "tLoWzPZezKODuTqpl",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mwdmhq9rjlwLu7MZP",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2"
-				},
-				{
-					"id": "merwFe7zQHslVJ93p",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mM-pICBGj1VviHxl-",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2"
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tMK6GBuTvqsqeRpS7",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "English"
+					},
+					"modifiers": [
+						{
+							"id": "m0fJz6uipb_tJvHwu",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4"
+						},
+						{
+							"id": "mBMrbI9qjHVJLcZId",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mwdmhq9rjlwLu7MZP",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2"
+						},
+						{
+							"id": "merwFe7zQHslVJ93p",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mM-pICBGj1VviHxl-",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2"
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "French"
-			},
-			"modifiers": [
-				{
-					"id": "mGlbddkZQLGWNC2Lt",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "munY4MDOdNJQlMA0d",
-					"name": "Spoken",
+					"id": "tMK6GBuTvqsqeRpS7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mNqlcgX48K0jgtZ5h",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "moEXwttU0rt7t5dO9",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "m4cZ5CypDDDRflrRn",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "t2R73BRDH8dEUMA8i",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "French"
+					},
+					"modifiers": [
+						{
+							"id": "mGlbddkZQLGWNC2Lt",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "munY4MDOdNJQlMA0d",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mNqlcgX48K0jgtZ5h",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "moEXwttU0rt7t5dO9",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m4cZ5CypDDDRflrRn",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "German"
-			},
-			"modifiers": [
-				{
-					"id": "mnbuG6go-9PIQgIVE",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mMFMeuSwB7FzN2w6x",
-					"name": "Spoken",
+					"id": "t2R73BRDH8dEUMA8i",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1"
-				},
-				{
-					"id": "mS9yRHdJ3ynuVHYyH",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "m-07rlmCt2T3o_Qpn",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1"
-				},
-				{
-					"id": "mi4nTalPB0jGjFkJ1",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 2
-			}
-		},
-		{
-			"id": "tokgXBovcv1OrAs0W",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "German"
+					},
+					"modifiers": [
+						{
+							"id": "mZvjiXQExtSKPmaqH",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mvkRxNGF6aPx0-u_e",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mjNTct1NeTcSNZo3o",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2"
+						},
+						{
+							"id": "mxlTb1G4hZwUCPulD",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1"
+						},
+						{
+							"id": "mLFQM9yrwNC48_KVO",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 3
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Japanese"
-			},
-			"modifiers": [
-				{
-					"id": "meW8Y8x4m_OLncTSv",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mO87-JlJVy1h-1Kk9",
-					"name": "Spoken",
+					"id": "taHDN0svpJnKkaLb3",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mMOds7ent6mmW1tzw",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "m6E1rH5kf3TnluFzU",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mWL804b0XboXYW5aM",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tZUafxqzrTzh1Zl7r",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Greek"
+					},
+					"modifiers": [
+						{
+							"id": "mNczctYG2KPCqp01c",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mZ9zEW7Kn7fMJX5Al",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mbjVfQU7WIhGikXuN",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mUdY7qpD-svZJ5EMR",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m9zc9_83iMwXOZjFU",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Korean"
-			},
-			"modifiers": [
-				{
-					"id": "m9Q1cTYXCPydEjwrc",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mLe68NaHZNrh-Hepd",
-					"name": "Spoken",
+					"id": "tokgXBovcv1OrAs0W",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mzCAMk5Ze9D2lQFOU",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mfp0Tq8IVtCdNmWdq",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mjqbzoDPXkc6jXrp_",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "t9chI0t8FlxYTUV1b",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Japanese"
+					},
+					"modifiers": [
+						{
+							"id": "meW8Y8x4m_OLncTSv",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mO87-JlJVy1h-1Kk9",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mMOds7ent6mmW1tzw",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "m6E1rH5kf3TnluFzU",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mWL804b0XboXYW5aM",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Latin"
-			},
-			"modifiers": [
-				{
-					"id": "mgXHui99eN4SdRPDY",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "miZiyA7P5M-6_rfrg",
-					"name": "Spoken",
+					"id": "tZUafxqzrTzh1Zl7r",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mQdwb2b7j3aQoed4S",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mPTfP540bdQf2CHu7",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "m7V0LMZ-g7sA68pwS",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "t-dxpVRv3adZMtm3j",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Korean"
+					},
+					"modifiers": [
+						{
+							"id": "m9Q1cTYXCPydEjwrc",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mLe68NaHZNrh-Hepd",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mzCAMk5Ze9D2lQFOU",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mfp0Tq8IVtCdNmWdq",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mjqbzoDPXkc6jXrp_",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Lushootseed"
-			},
-			"modifiers": [
-				{
-					"id": "mI6bT3MdC71T_mfmM",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "m2p7Ainhbdkkef61E",
-					"name": "Spoken",
+					"id": "t9chI0t8FlxYTUV1b",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mDrDJC2Ln_LtNN3Op",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "m7BNpyPq_TH-OiOE5",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mW7K01466oYT7H8eT",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "t0O2wticE7eHC5eYn",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Latin"
+					},
+					"modifiers": [
+						{
+							"id": "mdy2-3Rxqpd9ZLRTK",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mKTZwG0l8IF2Yiecb",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mMHLdhfZLdctkME-B",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mIZdWA4hQioma9aaS",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "msjunKVm1Y70IjQa9",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Mandarin"
-			},
-			"modifiers": [
-				{
-					"id": "mf-RBzVN-LMA2zs4U",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mTjp-KytH8J9vrXPg",
-					"name": "Spoken",
+					"id": "t-dxpVRv3adZMtm3j",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1"
-				},
-				{
-					"id": "mST27ARYREZPS2OsC",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mfBeVl6bS_DBj9ubR",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1"
-				},
-				{
-					"id": "mv0d7-WLa7DcPrIlJ",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 2
-			}
-		},
-		{
-			"id": "tOUGe4l2qCWRoCGh7",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Lushootseed"
+					},
+					"modifiers": [
+						{
+							"id": "mI6bT3MdC71T_mfmM",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m2p7Ainhbdkkef61E",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mDrDJC2Ln_LtNN3Op",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "m7BNpyPq_TH-OiOE5",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mW7K01466oYT7H8eT",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Punjabi"
-			},
-			"modifiers": [
-				{
-					"id": "miTRO4dqPgo6zYc_K",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "m3KcUQRGzj4at6gqL",
-					"name": "Spoken",
+					"id": "t0O2wticE7eHC5eYn",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "m-D4iYPkRU8ogr8fU",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mh4N7-rnjdOVZcCvL",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "m44iiNiw_vTljAM6D",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tmXwWdkdfXPDcAiiF",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Mandarin"
+					},
+					"modifiers": [
+						{
+							"id": "mFSM1E_fA_98oLrIS",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m5tIQAj0b0S8FkBEB",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mQqo3wzoAOuEIOXtU",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2"
+						},
+						{
+							"id": "mtfwsV0K2qBpGPxYn",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1"
+						},
+						{
+							"id": "mroDQe9EJgwsZ6eYl",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 3
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Quileute"
-			},
-			"modifiers": [
-				{
-					"id": "m0rvJRYxTJQPX7TMW",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "movqSMwsazYrPkVX3",
-					"name": "Spoken",
+					"id": "tOUGe4l2qCWRoCGh7",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mAabGa3276A_KB5lm",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mZA30lC9pq62IaB_n",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "m27v4UWR-xu09RYGB",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tVecx72NK82IOGWzp",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Punjabi"
+					},
+					"modifiers": [
+						{
+							"id": "miTRO4dqPgo6zYc_K",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m3KcUQRGzj4at6gqL",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m-D4iYPkRU8ogr8fU",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mh4N7-rnjdOVZcCvL",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m44iiNiw_vTljAM6D",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Russian"
-			},
-			"modifiers": [
-				{
-					"id": "m034JRtyrtySWbkrJ",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mXBZz04T9yTibLkAp",
-					"name": "Spoken",
+					"id": "tmXwWdkdfXPDcAiiF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mqkG8uXB9RYZct33f",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mYVLNWDr9sp48Rovq",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mwhDHcWryYSvKoqqU",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tmC513JCQmFpnL0W_",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Quileute"
+					},
+					"modifiers": [
+						{
+							"id": "m0rvJRYxTJQPX7TMW",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "movqSMwsazYrPkVX3",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mAabGa3276A_KB5lm",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mZA30lC9pq62IaB_n",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m27v4UWR-xu09RYGB",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Spanish"
-			},
-			"modifiers": [
-				{
-					"id": "mPGV5mmjueFpZemXh",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mobvwPDrBpRGvG9ZN",
-					"name": "Spoken",
+					"id": "tVecx72NK82IOGWzp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1"
-				},
-				{
-					"id": "m4E6j-14sCn8BfPhX",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "malZb8y7t_nTfuXf1",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1"
-				},
-				{
-					"id": "mX-_bEZhhrtQFnv5T",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 2
-			}
-		},
-		{
-			"id": "tYFtSJN9oS7e6xUpP",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Russian"
+					},
+					"modifiers": [
+						{
+							"id": "m034JRtyrtySWbkrJ",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mXBZz04T9yTibLkAp",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mqkG8uXB9RYZct33f",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mYVLNWDr9sp48Rovq",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mwhDHcWryYSvKoqqU",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Tagalog"
-			},
-			"modifiers": [
-				{
-					"id": "mcnHF_PagtSyllhWz",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "m8FX3b-JTcm7foiV1",
-					"name": "Spoken",
+					"id": "tmC513JCQmFpnL0W_",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mDv5M3sfm-vUANRz1",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mFIdBis_yNe9Bo4WD",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mQUThcHWcDUUUOY-E",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "t-ja7bstAbnZ0zjje",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Spanish"
+					},
+					"modifiers": [
+						{
+							"id": "mPGV5mmjueFpZemXh",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mobvwPDrBpRGvG9ZN",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1"
+						},
+						{
+							"id": "m4E6j-14sCn8BfPhX",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "malZb8y7t_nTfuXf1",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1"
+						},
+						{
+							"id": "mX-_bEZhhrtQFnv5T",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 2
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Ukrainian"
-			},
-			"modifiers": [
-				{
-					"id": "mayBVZQa01PxwNkM6",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "m3r8mnbaWTtCg9822",
-					"name": "Spoken",
+					"id": "tGZm7M1W76QknuU-6",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "msYnmubK1ISt98Ssg",
-					"name": "Spoken",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				},
-				{
-					"id": "mR2s5Ol4jns1NqB8V",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mJpna42_PBHZn0U2M",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": 0
-			}
-		},
-		{
-			"id": "tAD8DNlN8coY2iBtB",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tqOS0Bmbg9MLory05"
-			},
-			"name": "Language: @Language@",
-			"reference": "B24",
-			"local_notes": "With Language Talent",
-			"tags": [
-				"Advantage",
-				"Language",
-				"Mental"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Language Talent"
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Swahili"
+					},
+					"modifiers": [
+						{
+							"id": "mSbBkJw6SkAuqHfzB",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mDwXW8506gfa0PEBs",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m2N37GCmVmWABR6h8",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mpAQd0s7zKYkc3yBx",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mnQvrv-nfG460VxJ5",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
 						}
+					],
+					"calc": {
+						"points": 0
 					}
-				]
-			},
-			"replacements": {
-				"Language": "Vietnamese"
-			},
-			"modifiers": [
-				{
-					"id": "mDpW-_uzA3iaS2Av5",
-					"name": "Native",
-					"reference": "B23",
-					"cost_adj": "-4",
-					"disabled": true
 				},
 				{
-					"id": "mmIMZVVP82ijNEAdg",
-					"name": "Spoken",
+					"id": "tYFtSJN9oS7e6xUpP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Tagalog"
+					},
+					"modifiers": [
+						{
+							"id": "mcnHF_PagtSyllhWz",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m8FX3b-JTcm7foiV1",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mDv5M3sfm-vUANRz1",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mFIdBis_yNe9Bo4WD",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mQUThcHWcDUUUOY-E",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
 				},
 				{
-					"id": "m8AZllqw6t322VSQ2",
-					"name": "Spoken",
+					"id": "t-ja7bstAbnZ0zjje",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Ukrainian"
+					},
+					"modifiers": [
+						{
+							"id": "mayBVZQa01PxwNkM6",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "m3r8mnbaWTtCg9822",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "msYnmubK1ISt98Ssg",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mR2s5Ol4jns1NqB8V",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mJpna42_PBHZn0U2M",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
 				},
 				{
-					"id": "mYY7Ia1ZyktxJ6mhE",
-					"name": "Written",
+					"id": "tAD8DNlN8coY2iBtB",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Traits.adq",
+						"id": "tqOS0Bmbg9MLory05"
+					},
+					"name": "Language: @Language@",
 					"reference": "B24",
-					"local_notes": "Accented",
-					"cost_adj": "1",
-					"disabled": true
-				},
-				{
-					"id": "mSAF2gEZMI7A80F9d",
-					"name": "Written",
-					"reference": "B24",
-					"local_notes": "Native",
-					"cost_adj": "2",
-					"disabled": true
+					"local_notes": "With Language Talent",
+					"tags": [
+						"Advantage",
+						"Language",
+						"Mental"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Language Talent"
+								}
+							}
+						]
+					},
+					"replacements": {
+						"Language": "Vietnamese"
+					},
+					"modifiers": [
+						{
+							"id": "mDpW-_uzA3iaS2Av5",
+							"name": "Native",
+							"reference": "B23",
+							"cost_adj": "-4",
+							"disabled": true
+						},
+						{
+							"id": "mmIMZVVP82ijNEAdg",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "m8AZllqw6t322VSQ2",
+							"name": "Spoken",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						},
+						{
+							"id": "mYY7Ia1ZyktxJ6mhE",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Accented",
+							"cost_adj": "1",
+							"disabled": true
+						},
+						{
+							"id": "mSAF2gEZMI7A80F9d",
+							"name": "Written",
+							"reference": "B24",
+							"local_notes": "Native",
+							"cost_adj": "2",
+							"disabled": true
+						}
+					],
+					"calc": {
+						"points": 0
+					}
 				}
 			],
 			"calc": {
-				"points": 0
+				"points": 23
 			}
 		},
 		{
@@ -2491,12 +2654,37 @@
 			}
 		},
 		{
-			"id": "T9wFEnqODgQreb1AZ",
-			"name": "Software assist (Smart Phone)",
-			"userdesc": "Must have ",
+			"id": "tihz9tXsIZWahXijP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Thaumatology/Thaumatology - RPM Traits.adq",
+				"id": "tK_EoIIlc9E9EGXi1"
+			},
+			"name": "Ritual Adept",
+			"reference": "TRPM6",
+			"tags": [
+				"Advantage",
+				"Mental",
+				"Supernatural"
+			],
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "trait_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "Magery (Ritual Path)"
+						}
+					}
+				]
+			},
+			"userdesc": "Software assist (Smart Phone)",
 			"modifiers": [
 				{
-					"id": "mKB68tMwvnFhOLvgA",
+					"id": "m-2Ni48lRdyg7NFI1",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -2508,7 +2696,7 @@
 					"cost_adj": "-20%"
 				},
 				{
-					"id": "mbcgtJe3RY7GOhAPQ",
+					"id": "mCApjrm6qIwy31eMp",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -2520,66 +2708,9 @@
 					"cost_adj": "-5%"
 				}
 			],
-			"children": [
-				{
-					"id": "t776RudIPyi5KTLY2",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Thaumatology/Thaumatology - RPM Traits.adq",
-						"id": "tbN9n6aAMMZoBiWQL"
-					},
-					"name": "Magery (Ritual Path)",
-					"reference": "TRPM5",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"points_per_level": 10,
-					"can_level": true,
-					"levels": 1,
-					"calc": {
-						"points": 8,
-						"current_level": 1
-					}
-				},
-				{
-					"id": "tihz9tXsIZWahXijP",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Thaumatology/Thaumatology - RPM Traits.adq",
-						"id": "tK_EoIIlc9E9EGXi1"
-					},
-					"name": "Ritual Adept",
-					"reference": "TRPM6",
-					"tags": [
-						"Advantage",
-						"Mental",
-						"Supernatural"
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "trait_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "Magery (Ritual Path)"
-								}
-							}
-						]
-					},
-					"userdesc": "software assist (Smart Phone)",
-					"base_points": 40,
-					"calc": {
-						"points": 30
-					}
-				}
-			],
+			"base_points": 40,
 			"calc": {
-				"points": 38
+				"points": 30
 			}
 		},
 		{
@@ -2821,6 +2952,69 @@
 			"name": "Magic things",
 			"children": [
 				{
+					"id": "srLBZLn0nrj-X8_Xp",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology/Thaumatology - RPM Skills.skl",
+						"id": "sMmg4Pw3DXGJ7wpk7"
+					},
+					"name": "Path of Body (Yesod)",
+					"reference": "TRPM7",
+					"tags": [
+						"Magic",
+						"Ritual Path Magic"
+					],
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Physics"
+							},
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Physics"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
+					"points": 1,
+					"defaulted_from": {
+						"type": "skill",
+						"name": {
+							"compare": "is",
+							"qualifier": "Physics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Particle Physics"
+						},
+						"modifier": -8,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"calc": {
+						"level": 11,
+						"rsl": "IQ-3"
+					}
+				},
+				{
 					"id": "s5RiO-YuLCnvlu6Pk",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -2925,7 +3119,7 @@
 							}
 						]
 					},
-					"points": 1,
+					"points": 2,
 					"defaulted_from": {
 						"type": "skill",
 						"name": {
@@ -2942,8 +3136,8 @@
 						"points": -7
 					},
 					"calc": {
-						"level": 11,
-						"rsl": "IQ-3"
+						"level": 12,
+						"rsl": "IQ-2"
 					}
 				},
 				{
@@ -2988,7 +3182,7 @@
 							}
 						]
 					},
-					"points": 1,
+					"points": 2,
 					"defaulted_from": {
 						"type": "skill",
 						"name": {
@@ -3005,8 +3199,8 @@
 						"points": -7
 					},
 					"calc": {
-						"level": 11,
-						"rsl": "IQ-3"
+						"level": 12,
+						"rsl": "IQ-2"
 					}
 				},
 				{
@@ -3017,6 +3211,69 @@
 						"id": "sg7CZfNC2WgKPIiJ-"
 					},
 					"name": "Path of Matter (Netzach)",
+					"reference": "TRPM11",
+					"tags": [
+						"Magic",
+						"Ritual Path Magic"
+					],
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Physics"
+							},
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Physics"
+								},
+								"level": {
+									"compare": "at_least",
+									"qualifier": 1
+								}
+							}
+						]
+					},
+					"points": 2,
+					"defaulted_from": {
+						"type": "skill",
+						"name": {
+							"compare": "is",
+							"qualifier": "Physics"
+						},
+						"specialization": {
+							"compare": "is",
+							"qualifier": "Particle Physics"
+						},
+						"modifier": -8,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"calc": {
+						"level": 12,
+						"rsl": "IQ-2"
+					}
+				},
+				{
+					"id": "sHiqdv6YZX7WESNAa",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology/Thaumatology - RPM Skills.skl",
+						"id": "sgAgU4n8kAV0jG9fw"
+					},
+					"name": "Path of Mind (Chokmah)",
 					"reference": "TRPM11",
 					"tags": [
 						"Magic",
@@ -4867,7 +5124,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-08-19T14:23:52-07:00",
+	"modified_date": "2026-08-19T16:09:12-07:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
