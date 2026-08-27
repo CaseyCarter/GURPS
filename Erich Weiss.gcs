@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "ADsvlpCkXuQHOt6Ug",
-	"total_points": 150,
+	"total_points": 153,
 	"points_record": [
+		{
+			"when": "2026-08-26T21:39:19-07:00",
+			"points": 3,
+			"reason": "Session points"
+		},
 		{
 			"when": "2026-08-11T10:12:39-07:00",
 			"points": 150,
@@ -4800,21 +4805,21 @@
 									],
 									"base_value": "0.3",
 									"base_weight": "0.026 lb",
-									"quantity": 19,
+									"quantity": 4,
 									"equipped": true,
 									"calc": {
 										"value": 0.3,
-										"extended_value": 5.7,
+										"extended_value": 1.2,
 										"weight": "0.026 lb",
-										"extended_weight": "0.494 lb"
+										"extended_weight": "0.104 lb"
 									}
 								}
 							],
 							"calc": {
 								"value": 32.5,
-								"extended_value": 38.2,
+								"extended_value": 33.7,
 								"weight": "0.21 lb",
-								"extended_weight": "0.704 lb"
+								"extended_weight": "0.314 lb"
 							}
 						},
 						{
@@ -4846,9 +4851,9 @@
 					],
 					"calc": {
 						"value": 568,
-						"extended_value": 756.5,
+						"extended_value": 752,
 						"weight": "1.4 lb",
-						"extended_weight": "2.38 lb"
+						"extended_weight": "1.99 lb"
 					}
 				},
 				{
@@ -5029,9 +5034,9 @@
 			],
 			"calc": {
 				"value": 50,
-				"extended_value": 982.9,
+				"extended_value": 978.4,
 				"weight": "1 lb",
-				"extended_weight": "5.038 lb"
+				"extended_weight": "4.648 lb"
 			}
 		},
 		{
@@ -5240,7 +5245,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-08-26T17:19:44-07:00",
+	"modified_date": "2026-08-26T21:40:34-07:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
