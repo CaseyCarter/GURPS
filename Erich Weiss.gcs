@@ -2587,7 +2587,7 @@
 			}
 		},
 		{
-			"id": "t4KnChHzmGKfG-icy",
+			"id": "tsCXx7pMl9ycXjida",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
 				"path": "Basic Set/Basic Set Traits.adq",
@@ -2835,37 +2835,12 @@
 			}
 		},
 		{
-			"id": "tihz9tXsIZWahXijP",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Thaumatology/Thaumatology - RPM Traits.adq",
-				"id": "tK_EoIIlc9E9EGXi1"
-			},
-			"name": "Ritual Adept",
-			"reference": "TRPM6",
-			"tags": [
-				"Advantage",
-				"Mental",
-				"Supernatural"
-			],
-			"prereqs": {
-				"type": "prereq_list",
-				"all": true,
-				"prereqs": [
-					{
-						"type": "trait_prereq",
-						"has": true,
-						"name": {
-							"compare": "is",
-							"qualifier": "Magery (Ritual Path)"
-						}
-					}
-				]
-			},
-			"userdesc": "Software assist (Smart Phone)",
+			"id": "TGfdlZy93PPLxDa4w",
+			"name": "Software Assist",
+			"local_notes": "Smartphone Gadget limitation",
 			"modifiers": [
 				{
-					"id": "m-2Ni48lRdyg7NFI1",
+					"id": "mGKekuyskxpis_6p4",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -2877,7 +2852,7 @@
 					"cost_adj": "-20%"
 				},
 				{
-					"id": "mCApjrm6qIwy31eMp",
+					"id": "mPxMfVCkWH3iLzaSf",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
@@ -2889,7 +2864,63 @@
 					"cost_adj": "-5%"
 				}
 			],
-			"base_points": 40,
+			"children": [
+				{
+					"id": "tkU1EFgJvJQ_ukWMK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology/Thaumatology - RPM Traits.adq",
+						"id": "tbN9n6aAMMZoBiWQL"
+					},
+					"name": "Magery (Ritual Path)",
+					"reference": "TRPM5",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"points_per_level": 10,
+					"can_level": true,
+					"calc": {
+						"points": 0,
+						"current_level": 0
+					}
+				},
+				{
+					"id": "tihz9tXsIZWahXijP",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Thaumatology/Thaumatology - RPM Traits.adq",
+						"id": "tK_EoIIlc9E9EGXi1"
+					},
+					"name": "Ritual Adept",
+					"reference": "TRPM6",
+					"tags": [
+						"Advantage",
+						"Mental",
+						"Supernatural"
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "trait_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "Magery (Ritual Path)"
+								}
+							}
+						]
+					},
+					"userdesc": "Software assist (Smart Phone)",
+					"base_points": 40,
+					"calc": {
+						"points": 30
+					}
+				}
+			],
 			"calc": {
 				"points": 30
 			}
