@@ -4996,7 +4996,7 @@
 							"equipped": true,
 							"children": [
 								{
-									"id": "eNC65X3mK0kQBLx4E",
+									"id": "edbbzdsJJPrm2LQa7",
 									"source": {
 										"library": "richardwilkes/gcs_master_library",
 										"path": "High Tech/High Tech Equipment.eqp",
@@ -5010,21 +5010,21 @@
 									],
 									"base_value": "0.3",
 									"base_weight": "0.026 lb",
-									"quantity": 4,
+									"quantity": 19,
 									"equipped": true,
 									"calc": {
 										"value": 0.3,
-										"extended_value": 1.2,
+										"extended_value": 5.7,
 										"weight": "0.026 lb",
-										"extended_weight": "0.104 lb"
+										"extended_weight": "0.494 lb"
 									}
 								}
 							],
 							"calc": {
 								"value": 32.5,
-								"extended_value": 33.7,
+								"extended_value": 38.2,
 								"weight": "0.21 lb",
-								"extended_weight": "0.314 lb"
+								"extended_weight": "0.704 lb"
 							}
 						},
 						{
@@ -5056,9 +5056,9 @@
 					],
 					"calc": {
 						"value": 568,
-						"extended_value": 752,
+						"extended_value": 756.5,
 						"weight": "1.4 lb",
-						"extended_weight": "1.99 lb"
+						"extended_weight": "2.38 lb"
 					}
 				},
 				{
@@ -5136,7 +5136,7 @@
 					"quantity": 1,
 					"children": [
 						{
-							"id": "edbbzdsJJPrm2LQa7",
+							"id": "eNC65X3mK0kQBLx4E",
 							"source": {
 								"library": "richardwilkes/gcs_master_library",
 								"path": "High Tech/High Tech Equipment.eqp",
@@ -5150,21 +5150,21 @@
 							],
 							"base_value": "0.3",
 							"base_weight": "0.026 lb",
-							"quantity": 19,
+							"quantity": 4,
 							"equipped": true,
 							"calc": {
 								"value": 0.3,
-								"extended_value": 5.7,
+								"extended_value": 1.2,
 								"weight": "0.026 lb",
-								"extended_weight": "0.494 lb"
+								"extended_weight": "0.104 lb"
 							}
 						}
 					],
 					"calc": {
 						"value": 32.5,
-						"extended_value": 38.2,
+						"extended_value": 33.7,
 						"weight": "0.21 lb",
-						"extended_weight": "0.704 lb"
+						"extended_weight": "0.314 lb"
 					}
 				},
 				{
