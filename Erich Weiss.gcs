@@ -2601,12 +2601,12 @@
 				"Quirk"
 			],
 			"replacements": {
-				"Substance": "Gacha Games"
+				"Substance": "Gacha Games (Raid Shadow Legends)"
 			},
 			"base_points": -1,
 			"calc": {
 				"points": -1,
-				"resolved_notes": "Gacha Games"
+				"resolved_notes": "Gacha Games (Raid Shadow Legends)"
 			}
 		},
 		{
