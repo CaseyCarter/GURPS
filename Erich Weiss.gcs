@@ -5293,12 +5293,12 @@
 					"legality_class": "4",
 					"base_value": "2.50",
 					"base_weight": "0.00220462",
-					"quantity": 29,
+					"quantity": 30,
 					"calc": {
 						"value": 2.5,
-						"extended_value": 72.5,
+						"extended_value": 75,
 						"weight": "0.0022 lb",
-						"extended_weight": "0.0638 lb"
+						"extended_weight": "0.066 lb"
 					}
 				},
 				{
@@ -5351,9 +5351,9 @@
 			],
 			"calc": {
 				"value": 120,
-				"extended_value": 1742.5,
+				"extended_value": 1745,
 				"weight": "1.5 lb",
-				"extended_weight": "5.0638 lb"
+				"extended_weight": "5.066 lb"
 			}
 		}
 	],
@@ -5389,13 +5389,13 @@
 			"legality_class": "4",
 			"base_value": "2.50",
 			"base_weight": "0.00220462",
-			"quantity": 30,
+			"quantity": 28,
 			"equipped": true,
 			"calc": {
 				"value": 2.5,
-				"extended_value": 75,
+				"extended_value": 70,
 				"weight": "0.0022 lb",
-				"extended_weight": "0.066 lb"
+				"extended_weight": "0.0616 lb"
 			}
 		},
 		{
