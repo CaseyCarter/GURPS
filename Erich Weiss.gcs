@@ -4717,6 +4717,20 @@
 			}
 		},
 		{
+			"id": "edb4IsJw7ZYA_KUf4",
+			"description": "White Windbreaker",
+			"legality_class": "4",
+			"base_value": "50",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 50,
+				"extended_value": 50,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eyAfUPvCgF6FTSS6d",
 			"description": "Smart Phone",
 			"local_notes": "Complexity 2 computer. Stores 128 GB.10hrs.",
@@ -5383,6 +5397,20 @@
 			}
 		},
 		{
+			"id": "eo6eRfSjiSBg59HCj",
+			"description": "White Windbreaker",
+			"legality_class": "4",
+			"base_value": "50",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"value": 50,
+				"extended_value": 50,
+				"weight": "0 lb",
+				"extended_weight": "0 lb"
+			}
+		},
+		{
 			"id": "eRGRtMaWRN21nMyMT",
 			"description": "Clozapine",
 			"tech_level": "8",
@@ -5427,11 +5455,11 @@
 			"description": "Bank balance (USD)",
 			"legality_class": "4",
 			"base_value": "1",
-			"quantity": 6462.1,
+			"quantity": 6362.1,
 			"equipped": true,
 			"calc": {
 				"value": 1,
-				"extended_value": 6462.1,
+				"extended_value": 6362.1,
 				"weight": "0 lb",
 				"extended_weight": "0 lb"
 			}
