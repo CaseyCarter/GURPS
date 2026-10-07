@@ -1,8 +1,13 @@
 {
 	"version": 5,
 	"id": "ADsvlpCkXuQHOt6Ug",
-	"total_points": 181,
+	"total_points": 186,
 	"points_record": [
+		{
+			"when": "2026-10-05T14:17:00-07:00",
+			"points": 5,
+			"reason": "Session points"
+		},
 		{
 			"when": "2026-09-28T18:47:00-07:00",
 			"points": 20,
@@ -5551,7 +5556,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-10-07T13:34:44-07:00",
+	"modified_date": "2026-10-07T14:21:01-07:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
