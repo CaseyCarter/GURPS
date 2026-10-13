@@ -1,8 +1,6 @@
-Nova
-I fired 15
--1 day of drugs
-Roommate: Dan Richardson
-apt# 437
+Nova is the contact through the Library door that Livia works for?
+Roommate: Dan Richardson, apt# 437
+FBI agent: Gerald Taylor
 
 ## Stat mechanics:
   * ST: 10
