@@ -91,10 +91,18 @@ FBI agent: Gerald Taylor
   +1       +10
 
 ## Spellbook:
-  * Accelerated healing: Lesser Restore Body (4), 2d healing (4), Target weight (3): 11 NRG
+  * Accelerated Healing: Lesser Restore Body (4), 2d healing (4), Target weight (3): 11 NRG
+  * Reconfigure Pistol: Lesser Transform Matter (8): 8 NRG
+  * Skill boost template:
+    * Lesser Control Chance (5)
+    * Duration: e.g. 10 minutes (1)
+    * Bestows a (Bonus or Penalty): e.g. +3 Narrow (4)
+    * For example: +3 Gun for 10 minutes, 9 NRG
 
 ### Prepared spells:
   * Conditionals:
     * Accelerated healing
   * Charms:
     * Unknown gun skill charm (gift from Renee)
+
+## Notes and tracking:
