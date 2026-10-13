@@ -97,7 +97,7 @@ FBI agent: Gerald Taylor
     * Lesser Control Chance (5)
     * Duration: e.g. 10 minutes (1)
     * Bestows a (Bonus or Penalty): e.g. +3 Narrow (4)
-    * For example: +3 Gun for 10 minutes, 9 NRG
+    * For example: +3 Guns/Pistol for 10 minutes, 10 NRG
 
 ### Prepared spells:
   * Conditionals:
