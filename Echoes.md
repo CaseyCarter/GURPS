@@ -58,6 +58,17 @@ FBI agent: Gerald Taylor
      1 month   4d-1 1350 tons  11
     +1 month   ...    x3       +1
 
+* Crafting Penalties Table
+  Percentage of   TL3 Example  TL8 Example  Penalty
+  Starting Wealth
+   0.5%              $5           $100        0
+     1%              $10          $200       -1
+     2%              $20          $400       -2
+     5%              $50        $1,000       -3
+    10%              $100       $2,000       -4
+    20%              $200       $4,000       -5
+    50%              $500      $10,000       -6
+
 * Quick-and-Dirty Rituals and Charms:
   * The physics lab is a basic workspace kit for Charms and Conditional Spells
   Effective Safe
