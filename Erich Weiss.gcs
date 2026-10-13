@@ -5495,13 +5495,13 @@
 			"legality_class": "4",
 			"base_value": "2.50",
 			"base_weight": "0.00220462",
-			"quantity": 28,
+			"quantity": 27,
 			"equipped": true,
 			"calc": {
 				"value": 2.5,
-				"extended_value": 70,
+				"extended_value": 67.5,
 				"weight": "0.0022 lb",
-				"extended_weight": "0.0616 lb"
+				"extended_weight": "0.0594 lb"
 			}
 		},
 		{
@@ -5556,7 +5556,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-10-07T14:21:01-07:00",
+	"modified_date": "2026-10-12T17:59:12-07:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
