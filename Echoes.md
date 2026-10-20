@@ -1,23 +1,27 @@
 Nova is the contact through the Library door that Livia works for?
 Roommate: Dan Richardson, apt# 437
-FBI agent: Gerald Taylor
+FBI (SID?) agent: Gerald Taylor
+* Carries palm-sized device: "Anomalous Energy & Particle Excitation Detector"
+
+* Anomalies and Aberrations were discovered in 1956, or at least that's when the Special Incidents Division (SID) became aware of them
+* We are "Metahumans"
+* On Feb 24, AEPEDs noted ?something?
 
 ## Stat mechanics:
-  * ST: 10
-    * HP: 2
-  * DX: 20
-    * Basic Speed: 5
-      * Basic Move: 1.25
-        * Water Move: 0.25
-  * IQ: 20
-    * Wil: 5
-    * Per: 5
-  * HT: 10
-    * FP: 3
-    * Basic Speed: 5
-      * Basic Move: 1.25
-        * Water Move: 0.25
-
+* ST: 10
+  * HP: 2
+* DX: 20
+  * Basic Speed: 5
+    * Basic Move: 1.25
+      * Water Move: 0.25
+* IQ: 20
+  * Wil: 5
+  * Per: 5
+* HT: 10
+  * FP: 3
+  * Basic Speed: 5
+    * Basic Move: 1.25
+      * Water Move: 0.25
 
 ## Spell mechs:
 * Skill: Roll the lowest Path
@@ -101,7 +105,6 @@ FBI agent: Gerald Taylor
 
 ### Prepared spells:
   * Conditionals:
-    * Accelerated healing
   * Charms:
     * Unknown gun skill charm (gift from Renee)
 
