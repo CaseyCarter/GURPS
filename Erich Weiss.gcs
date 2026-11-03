@@ -473,6 +473,44 @@
 						"value": "$hp"
 					}
 				]
+			},
+			{
+				"id": "ct",
+				"type": "pool",
+				"name": "CT",
+				"full_name": "Corruption Threshold",
+				"base": "($will+$ht)/2",
+				"thresholds": [
+					{
+						"state": "Dead",
+						"value": "Math.round(-$ct * 10)",
+						"explanation": "You are dead, and your body becomes an unrecognizable black goo."
+					},
+					{
+						"state": "Eating Its Way Out",
+						"value": "Math.round(-$ct * 5)",
+						"explanation": "- -4 to Will and Self Control rolls\n- +4 to cast spells or gather energy with a path skill\n- +3 to Fright Checks\n- Make an unpenalized HT or Will roll (whichever is higher) at the end of each day or lose 1 FP until CT reaches -4x"
+					},
+					{
+						"state": "Physically Manifest Corruption",
+						"value": "-$ct",
+						"explanation": "- -4 to Will and Self Control rolls\n- +4 to cast spells or gather energy with a path skill\n- +3 to Fright Checks"
+					},
+					{
+						"state": "Begging for Release",
+						"value": "0",
+						"explanation": "- -2 to Will and Self Control rolls\n- +2 to cast spells or gather energy with a path skill\n- +2 to Fright Checks"
+					},
+					{
+						"state": "Not Yourself",
+						"value": "Math.ceil($ct / 3) - 1",
+						"explanation": "- -1 to Will and Self Control rolls\n- +1 to cast spells or gather energy with a path skill"
+					},
+					{
+						"state": "Okies",
+						"value": "$ct"
+					}
+				]
 			}
 		],
 		"body_type": {
@@ -791,6 +829,15 @@
 			"calc": {
 				"value": 8,
 				"current": 8,
+				"points": 0
+			}
+		},
+		{
+			"attr_id": "ct",
+			"adj": 0,
+			"calc": {
+				"value": 13,
+				"current": 13,
 				"points": 0
 			}
 		}
