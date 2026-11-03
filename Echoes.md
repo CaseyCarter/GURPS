@@ -1,11 +1,41 @@
 Nova is the contact through the Library door that Livia works for?
 Roommate: Dan Richardson, apt# 437
-FBI (SID?) agent: Gerald Taylor
-* Carries palm-sized device: "Anomalous Energy & Particle Excitation Detector"
 
-* Anomalies and Aberrations were discovered in 1956, or at least that's when the Special Incidents Division (SID) became aware of them
-* We are "Metahumans"
-* On Feb 24, AEPEDs noted ?something?
+* FBI agent: Gerald Taylor
+  * Member of Special Incidents Division (SID)
+  * We are "Metahumans"
+  * Carries palm-sized device: "Anomalous Energy & Particle Excitation Detector"
+  * Anomalies and Aberrations were discovered in 1956, or at least that's when the SID became aware of them
+  * On Feb 24, AEPEDs noted ?something?
+  * SID is investigating the Children of Sockless
+
+* Order of Azazel
+  * Want to suppress knowledge of magic
+  * Happy to kill or mindwipe everyone
+  * Iconography: Monochromatic flaming sword with wings for hilt
+  * Mostly EU and east US
+
+* Order of Apotheosis
+  * Information wants to be free, everyone should know about magic
+  * Children of Sockless is a splinter sect
+    * Led by (the?) Jackal, former local leader
+  * Renee is local leader
+    * Wesley is her second-in-command, a "fixer"
+  * Base of operations under the city
+
+* (The?) Summit
+  * Sorcerers that just want everyone to leave them alone
+  * Nova is some kind of leader or representative?
+    * Mask has an illustration of a glowing sun
+
+* Knut's and Bolts hardware
+  * Proprietor John Knut
+
+* Fake ID for Livia:
+  * Greater Create Matter (6)
+  * Permanent (28)
+
+* University Square is a +5 place of power
 
 ## Stat mechanics:
 * ST: 10
@@ -24,7 +54,7 @@ FBI (SID?) agent: Gerald Taylor
       * Water Move: 0.25
 
 ## Spell mechs:
-* Skill: Roll the lowest Path
+* Skill: Roll the lowest Path of the associated efffects
 
 * Cost:
   (Sum of Spell Effects + Sum of Modifiers) * (1 + 2 * # of Greater Effects)
