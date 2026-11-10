@@ -1,6 +1,32 @@
 Nova is the contact through the Library door that Livia works for?
 Roommate: Dan Richardson, apt# 437
 
+* Through the door at the UW Library
+  * a building composed of pentagonal cells
+  * origami dragon
+  * larger room with raised dais covered in paper
+  * Calls me "ya sser'mon" (seeker)
+  * Refers to self as "Krohahak" (lorekeeper)
+  * Provided a text in a German variation "Gothic" along with a dictionary to translate to German
+  * Store the leather-bound tome at the physics lab behind lead, keep the Gothic-to-German text in my bag
+
+* Rex wants Livia to bug Cameron and Bunker Ltd.
+  * Conglomerate with involvement in:
+    * Defense
+    * Private security contracting
+    * Banking
+  * Office in Madison Centre floor 8 (downtown Seattle)
+
+* Kinzie (red dress in the nightclub) gave me her number
+
+* Madison Centre plan
+  * Disable power by blowing the transformer
+  * Go in invisible
+  * Physical and electric Locks?
+  * Guards?
+
+* Wesley provided me a specific ritual for invisibility
+
 * FBI agent: Gerald Taylor
   * Member of Special Incidents Division (SID)
   * We are "Metahumans"
