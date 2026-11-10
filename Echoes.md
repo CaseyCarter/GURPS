@@ -31,11 +31,11 @@ Roommate: Dan Richardson, apt# 437
 * Knut's and Bolts hardware
   * Proprietor John Knut
 
-* Fake ID for Livia:
+* Fake ID for Livia (in her real name):
   * Greater Create Matter (6)
   * Permanent (28)
 
-* University Square is a +5 place of power
+* Red Square is a +5 place of power
 
 ## Stat mechanics:
 * ST: 10
