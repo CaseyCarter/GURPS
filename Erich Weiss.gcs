@@ -1,4 +1,5 @@
 {
+	"file_type": "character",
 	"version": 5,
 	"id": "ADsvlpCkXuQHOt6Ug",
 	"total_points": 209,
@@ -360,8 +361,30 @@
 				"cost_per_point": 3,
 				"thresholds": [
 					{
+						"id": "l9WhVA_e94Ock1ROv",
 						"state": "Unconscious",
 						"value": "-$fp",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"limitation": "lifting_only",
+								"attribute": "st",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge",
@@ -369,9 +392,31 @@
 						]
 					},
 					{
+						"id": "lACx4IVQVwkM_qcWX",
 						"state": "Collapse",
 						"value": "0",
 						"explanation": "- Roll vs. Will to do anything besides talk or rest; failure causes unconsciousness\n- Each FP you lose below 0 also causes 1 HP of injury\n- Move, Dodge and ST are halved (B426)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"limitation": "lifting_only",
+								"attribute": "st",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge",
@@ -379,9 +424,31 @@
 						]
 					},
 					{
+						"id": "l0g1icxbd1n8xPwQx",
 						"state": "Tired",
 						"value": "Math.ceil($fp / 3) - 1",
 						"explanation": "Move, Dodge and ST are halved (B426)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"limitation": "lifting_only",
+								"attribute": "st",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge",
@@ -389,10 +456,12 @@
 						]
 					},
 					{
+						"id": "lTen8nhZymBSxZaFS",
 						"state": "Tiring",
 						"value": "$fp - 1"
 					},
 					{
+						"id": "ly-NTMDfY1M1KtwYs",
 						"state": "Rested",
 						"value": "$fp"
 					}
@@ -408,72 +477,179 @@
 				"cost_adj_percent_per_sm": 10,
 				"thresholds": [
 					{
+						"id": "l8HXw5K5FsHFdYirL",
 						"state": "Dead",
 						"value": "Math.round(-$hp * 5)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "lDdgb6unT3lJmZed7",
 						"state": "Dying #4",
 						"value": "Math.round(-$hp * 4)",
 						"explanation": "- Roll vs. HT to avoid death\n- Roll vs. HT-4 every second to avoid falling unconscious\n- Move and Dodge are halved (B419)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "lOmAD4OB80QpMzecT",
 						"state": "Dying #3",
 						"value": "Math.round(-$hp * 3)",
 						"explanation": "- Roll vs. HT to avoid death\n- Roll vs. HT-3 every second to avoid falling unconscious\n- Move and Dodge are halved (B419)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "lKwAPO1_6r7ive5Em",
 						"state": "Dying #2",
 						"value": "Math.round(-$hp * 2)",
 						"explanation": "- Roll vs. HT to avoid death\n- Roll vs. HT-2 every second to avoid falling unconscious\n- Move and Dodge are halved (B419)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "lGSdddh0EwCvS2r5Q",
 						"state": "Dying #1",
 						"value": "-$hp",
 						"explanation": "- Roll vs. HT to avoid death\n- Roll vs. HT-1 every second to avoid falling unconscious\n- Move and Dodge are halved (B419)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "l0158fNH-m4J1Jmaz",
 						"state": "Collapse",
 						"value": "0",
 						"explanation": "- Roll vs. HT every second to avoid falling unconscious\n- Move and Dodge are halved (B419)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "lz0PB0nOXY5e4JaEp",
 						"state": "Reeling",
 						"value": "Math.ceil($hp / 3) - 1",
 						"explanation": "Move and Dodge are halved (B419)",
+						"features": [
+							{
+								"type": "attribute_bonus",
+								"attribute": "move",
+								"multiply": true,
+								"amount": 0.5
+							},
+							{
+								"type": "attribute_bonus",
+								"attribute": "dodge",
+								"multiply": true,
+								"amount": 0.5
+							}
+						],
 						"ops": [
 							"halve_move",
 							"halve_dodge"
 						]
 					},
 					{
+						"id": "ly59OGgP-WHQj1Lss",
 						"state": "Wounded",
 						"value": "$hp - 1"
 					},
 					{
+						"id": "lUP4NCLa0ne2ILLaU",
 						"state": "Healthy",
 						"value": "$hp"
 					}
@@ -487,31 +663,37 @@
 				"base": "($will+$ht)/2",
 				"thresholds": [
 					{
+						"id": "lWwkso0O3NTxFidWy",
 						"state": "Dead",
 						"value": "Math.round(-$ct * 10)",
 						"explanation": "You are dead, and your body becomes an unrecognizable black goo."
 					},
 					{
+						"id": "ldCTp73r-AC1aBEfu",
 						"state": "Eating Its Way Out",
 						"value": "Math.round(-$ct * 5)",
 						"explanation": "- -4 to Will and Self Control rolls\n- +4 to cast spells or gather energy with a path skill\n- +3 to Fright Checks\n- Make an unpenalized HT or Will roll (whichever is higher) at the end of each day or lose 1 FP until CT reaches -4x"
 					},
 					{
+						"id": "lnk2nP8OzLLBsrLbO",
 						"state": "Physically Manifest Corruption",
 						"value": "-$ct",
 						"explanation": "- -4 to Will and Self Control rolls\n- +4 to cast spells or gather energy with a path skill\n- +3 to Fright Checks"
 					},
 					{
+						"id": "l6tfz2vNnB9yDMw4L",
 						"state": "Begging for Release",
 						"value": "0",
 						"explanation": "- -2 to Will and Self Control rolls\n- +2 to cast spells or gather energy with a path skill\n- +2 to Fright Checks"
 					},
 					{
+						"id": "lS_q81Y34jNQyZubO",
 						"state": "Not Yourself",
 						"value": "Math.ceil($ct / 3) - 1",
 						"explanation": "- -1 to Will and Self Control rolls\n- +1 to cast spells or gather energy with a path skill"
 					},
 					{
+						"id": "lXbkT0ZBoakwPP_7u",
 						"state": "Okies",
 						"value": "$ct"
 					}
@@ -720,6 +902,7 @@
 			"adj": -2,
 			"calc": {
 				"value": 8,
+				"current": 8,
 				"points": -20
 			}
 		},
@@ -728,6 +911,7 @@
 			"adj": 2,
 			"calc": {
 				"value": 12,
+				"current": 12,
 				"points": 40
 			}
 		},
@@ -736,6 +920,7 @@
 			"adj": 6,
 			"calc": {
 				"value": 16,
+				"current": 16,
 				"points": 120
 			}
 		},
@@ -744,6 +929,7 @@
 			"adj": 2,
 			"calc": {
 				"value": 12,
+				"current": 12,
 				"points": 20
 			}
 		},
@@ -752,6 +938,7 @@
 			"adj": -2,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": -10
 			}
 		},
@@ -760,6 +947,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": 0
 			}
 		},
@@ -768,6 +956,7 @@
 			"adj": -2,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": -10
 			}
 		},
@@ -776,6 +965,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": 0
 			}
 		},
@@ -784,6 +974,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": 0
 			}
 		},
@@ -792,6 +983,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": 0
 			}
 		},
@@ -800,6 +992,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 14,
+				"current": 14,
 				"points": 0
 			}
 		},
@@ -808,6 +1001,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 6,
+				"current": 6,
 				"points": 0
 			}
 		},
@@ -816,6 +1010,7 @@
 			"adj": 0,
 			"calc": {
 				"value": 6,
+				"current": 6,
 				"points": 0
 			}
 		},
@@ -5624,7 +5819,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-11-09T21:01:36-08:00",
+	"modified_date": "2026-11-16T09:49:10-08:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
