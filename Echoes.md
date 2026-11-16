@@ -12,10 +12,10 @@ Roommate: Dan Richardson, apt# 437
 
 * Rex wants Livia to bug Cameron and Bunker Ltd.
   * Conglomerate with involvement in:
-    * Defense
-    * Private security contracting
+    * Defense industry
     * Banking
   * Office in Madison Centre floor 8 (downtown Seattle)
+  * Security provided by scary private contractors
 
 * Kinzie (red dress in the nightclub) gave me her number
 
