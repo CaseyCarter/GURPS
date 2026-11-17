@@ -80,7 +80,25 @@ Roommate: Dan Richardson, apt# 437
       * Water Move: 0.25
 
 ## Spell mechs:
-* Skill: Roll the lowest Path of the associated efffects
+* Skill: Roll the lowest Path of the associated effects, -1 for each Path beyond two
+
+* Energy:
+  * Ambient
+    * Desecrated places have no ambient energy
+    * 5 Concentrate maneuvers followed by a skill roll
+      * -1 per maneuver omitted, up to four
+      * Places of Power add a bonus
+    * Crit Fail: Botch with min(30,double) energy
+    * Fail: +1 energy and +1 quirk
+    * Success: +min(1, margin of success) energy
+    * Crit Success: same and next attempt takes only 1 maneuver
+  * Mana Reserve:
+    * 3 * Magery
+  * Sacrifice:
+    * Voluntary: +1 energy per 2HP or 3FP
+    * Involuntary
+  * Natural
+  * Artifact
 
 * Cost:
   (Sum of Spell Effects + Sum of Modifiers) * (1 + 2 * # of Greater Effects)
