@@ -5,7 +5,7 @@ Roommate: Dan Richardson, apt# 437
   * a building composed of pentagonal cells
   * origami dragon
   * larger room with raised dais covered in paper
-  * Calls me "ya sser'mon" (seeker)
+  * Calls me "ya ser' mon" (seeker)
   * Refers to self as "Krohahak" (lorekeeper)
   * Provided a text in a German variation "Gothic" along with a dictionary to translate to German
   * Store the leather-bound tome at the physics lab behind lead, keep the Gothic-to-German text in my bag
@@ -21,9 +21,19 @@ Roommate: Dan Richardson, apt# 437
 
 * Madison Centre plan
   * Disable power by blowing the transformer
-  * Go in invisible
+  * Invisible ingress
   * Physical and electric Locks?
   * Guards?
+
+* Electric distribution
+  * 9 ft fence, no barbed wire
+  * small gate chain-locked with a keyed padlock
+  * cameras
+  * Plan to hack the grid computers?
+
+* Dock is a Place of Power
+  * Consider investigating the Space Needle
+  * Jeanine had a red handprint, some of the dock folks have multiple handprints - and some have none
 
 * Wesley provided me a specific ritual for invisibility
 
@@ -53,6 +63,8 @@ Roommate: Dan Richardson, apt# 437
   * Sorcerers that just want everyone to leave them alone
   * Nova is some kind of leader or representative?
     * Mask has an illustration of a glowing sun
+  * Nova calls Livia her "protege"
+  * Nova gave us the address of a dock on Lake Washington where a Seklanite ritual may occur at 20190926T21:00
 
 * Knut's and Bolts hardware
   * Proprietor John Knut
@@ -61,7 +73,7 @@ Roommate: Dan Richardson, apt# 437
   * Greater Create Matter (6)
   * Permanent (28)
 
-* Red Square is a +5 place of power
+* Red Square is a +5 Place of Power
 
 ## Stat mechanics:
 * ST: 10
@@ -94,6 +106,7 @@ Roommate: Dan Richardson, apt# 437
     * Crit Success: same and next attempt takes only 1 maneuver
   * Mana Reserve:
     * 3 * Magery
+    * Refill from Ambient with Path of Magic
   * Sacrifice:
     * Voluntary: +1 energy per 2HP or 3FP
     * Involuntary
@@ -176,10 +189,11 @@ Roommate: Dan Richardson, apt# 437
     * Duration: e.g. 10 minutes (1)
     * Bestows a (Bonus or Penalty): e.g. +3 Narrow (4)
     * For example: +3 Guns/Pistol for 10 minutes, 10 NRG
+  * Telecomm:
+    * Altered Trait, add Telecommunication advantage (30 points)
 
 ### Prepared spells:
   * Conditionals:
   * Charms:
-    * Unknown gun skill charm (gift from Renee)
 
 ## Notes and tracking:

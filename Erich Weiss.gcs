@@ -2,8 +2,13 @@
 	"file_type": "character",
 	"version": 5,
 	"id": "ADsvlpCkXuQHOt6Ug",
-	"total_points": 209,
+	"total_points": 214,
 	"points_record": [
+		{
+			"when": "2026-11-16T21:17:10-08:00",
+			"points": 5,
+			"reason": "Session points"
+		},
 		{
 			"when": "2026-11-02T17:34:00-08:00",
 			"points": 10,
@@ -1026,9 +1031,10 @@
 		{
 			"attr_id": "hp",
 			"adj": 0,
+			"damage": 11,
 			"calc": {
 				"value": 8,
-				"current": 8,
+				"current": -3,
 				"points": 0
 			}
 		},
@@ -5097,10 +5103,10 @@
 			"description": "Currency (USD)",
 			"legality_class": "4",
 			"base_value": "1",
-			"quantity": 500,
+			"quantity": 496,
 			"calc": {
 				"value": 1,
-				"extended_value": 500,
+				"extended_value": 496,
 				"weight": "0 lb",
 				"extended_weight": "0 lb"
 			}
@@ -5365,21 +5371,21 @@
 									],
 									"base_value": "0.3",
 									"base_weight": "0.026 lb",
-									"quantity": 17,
+									"quantity": 18,
 									"equipped": true,
 									"calc": {
 										"value": 0.3,
-										"extended_value": 5.1,
+										"extended_value": 5.4,
 										"weight": "0.026 lb",
-										"extended_weight": "0.442 lb"
+										"extended_weight": "0.468 lb"
 									}
 								}
 							],
 							"calc": {
 								"value": 32.5,
-								"extended_value": 37.6,
+								"extended_value": 37.9,
 								"weight": "0.21 lb",
-								"extended_weight": "0.652 lb"
+								"extended_weight": "0.678 lb"
 							}
 						},
 						{
@@ -5411,9 +5417,9 @@
 					],
 					"calc": {
 						"value": 568,
-						"extended_value": 755.9,
+						"extended_value": 756.2,
 						"weight": "1.4 lb",
-						"extended_weight": "2.328 lb"
+						"extended_weight": "2.354 lb"
 					}
 				},
 				{
@@ -5452,21 +5458,21 @@
 							],
 							"base_value": "0.3",
 							"base_weight": "0.026 lb",
-							"quantity": 19,
+							"quantity": 0,
 							"equipped": true,
 							"calc": {
 								"value": 0.3,
-								"extended_value": 5.7,
+								"extended_value": 0,
 								"weight": "0.026 lb",
-								"extended_weight": "0.494 lb"
+								"extended_weight": "0 lb"
 							}
 						}
 					],
 					"calc": {
 						"value": 32.5,
-						"extended_value": 38.2,
+						"extended_value": 32.5,
 						"weight": "0.21 lb",
-						"extended_weight": "0.704 lb"
+						"extended_weight": "0.21 lb"
 					}
 				},
 				{
@@ -5594,9 +5600,9 @@
 			],
 			"calc": {
 				"value": 50,
-				"extended_value": 982.3,
+				"extended_value": 976.9,
 				"weight": "1 lb",
-				"extended_weight": "4.986 lb"
+				"extended_weight": "4.518 lb"
 			}
 		},
 		{
@@ -5657,30 +5663,6 @@
 					}
 				},
 				{
-					"id": "eVfGvRD44WjTqx_-F",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Equipment.eqp",
-						"id": "eQwYw3YMYdWxfoOrH"
-					},
-					"description": "Computer, Laptop",
-					"reference": "B288",
-					"local_notes": "Modem plugs into phone. 2 hrs.",
-					"tech_level": "8",
-					"tags": [
-						"Communications and Information Gear"
-					],
-					"base_value": "1500",
-					"base_weight": "3 lb",
-					"quantity": 1,
-					"calc": {
-						"value": 1500,
-						"extended_value": 1500,
-						"weight": "3 lb",
-						"extended_weight": "3 lb"
-					}
-				},
-				{
 					"id": "eYc7GHNn4_POln6eY",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -5706,9 +5688,33 @@
 			],
 			"calc": {
 				"value": 120,
-				"extended_value": 1745,
+				"extended_value": 245,
 				"weight": "1.5 lb",
-				"extended_weight": "5.066 lb"
+				"extended_weight": "2.066 lb"
+			}
+		},
+		{
+			"id": "eVfGvRD44WjTqx_-F",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQwYw3YMYdWxfoOrH"
+			},
+			"description": "Computer, Laptop",
+			"reference": "B288",
+			"local_notes": "Modem plugs into phone. 2 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"base_value": "1500",
+			"base_weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"value": 1500,
+				"extended_value": 1500,
+				"weight": "3 lb",
+				"extended_weight": "3 lb"
 			}
 		}
 	],
@@ -5782,13 +5788,13 @@
 			],
 			"base_value": "0.3",
 			"base_weight": "0.026 lb",
-			"quantity": 176,
+			"quantity": 174,
 			"equipped": true,
 			"calc": {
 				"value": 0.3,
-				"extended_value": 52.8,
+				"extended_value": 52.2,
 				"weight": "0.026 lb",
-				"extended_weight": "4.576 lb"
+				"extended_weight": "4.524 lb"
 			}
 		},
 		{
@@ -5819,24 +5825,24 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-11-16T10:11:42-08:00",
+	"modified_date": "2026-11-17T08:31:50-08:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
 		"basic_lift": "13 lb",
 		"move": [
-			6,
+			3,
+			2,
+			1,
+			1,
+			1
+		],
+		"dodge": [
+			5,
 			4,
 			3,
 			2,
 			1
-		],
-		"dodge": [
-			9,
-			8,
-			7,
-			6,
-			5
 		]
 	}
 }
