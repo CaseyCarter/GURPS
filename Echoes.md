@@ -116,73 +116,94 @@ Roommate: Dan Richardson, apt# 437
 * Cost:
   (Sum of Spell Effects + Sum of Modifiers) * (1 + 2 * # of Greater Effects)
 
-  * Spell Effect  Cost
-    Sense            2
-    Strengthen       3
-    Restore          4
-    Control Destroy  5
-    Create           6
-    Transform        8
+  * Effects:
 
-  * Bestows a (Bonus or Penalty)
-    Modifier Broad Moderate Narrow
-    ±1        5     2        1
-    ±2       10     4        2
-    ±3       20     8        4
-    ±4       40    16        8
-    ±5       80    32       16
-    etc.     x2    x2       x2
+    | Spell Effect    | Cost |
+    | --------------- | ---- |
+    | Sense           |    2 |
+    | Strengthen      |    3 |
+    | Restore         |    4 |
+    | Control Destroy |    5 |
+    | Create          |    6 |
+    | Transform       |    8 |
 
-  * Spell Modifiers
-     Duration  DMG   Weight   Energy
-     Momentary 1d     10 lb     0
-    10 minutes 1d+1   30 lb     1
-    30 minutes 1d+2  100 lb     2
-     1 hour    2d-1  300 lb     3
-     3 hours   2d   1000 lb     4
-     6 hours   2d+1 3000 lb     5
-    12 hours   2d+2    5 tons   6
-     1 day     3d-1   15 tons   7
-     3 days    3d     50 tons   8
-     1 week    3d+1  150 tons   9
-     2 weeks   3d+2  450 tons  10
-     1 month   4d-1 1350 tons  11
-    +1 month   ...    x3       +1
+  * Spell Modifiers:
 
-* Crafting Penalties Table
-  Percentage of   TL3 Example  TL8 Example  Penalty
-  Starting Wealth
-   0.5%              $5           $100        0
-     1%              $10          $200       -1
-     2%              $20          $400       -2
-     5%              $50        $1,000       -3
-    10%              $100       $2,000       -4
-    20%              $200       $4,000       -5
-    50%              $500      $10,000       -6
+    |  Duration  | DMG  |  Weight   | Cost |
+    |  --------  | ---  |  ------   | ---- |
+    |  Momentary | 1d   |   10 lb   |  0   |
+    | 10 minutes | 1d+1 |   30 lb   |  1   |
+    | 30 minutes | 1d+2 |  100 lb   |  2   |
+    |  1 hour    | 2d-1 |  300 lb   |  3   |
+    |  3 hours   | 2d   | 1000 lb   |  4   |
+    |  6 hours   | 2d+1 | 3000 lb   |  5   |
+    | 12 hours   | 2d+2 |    5 tons |  6   |
+    |  1 day     | 3d-1 |   15 tons |  7   |
+    |  3 days    | 3d   |   50 tons |  8   |
+    |  1 week    | 3d+1 |  150 tons |  9   |
+    |  2 weeks   | 3d+2 |  450 tons | 10   |
+    |  1 month   | 4d-1 | 1350 tons | 11   |
+    | +1 month   | ...  |   x3      | +1   |
+
+    * Afflictions:
+      * Stunning is free
+      * +1 energy per +5% enhancement (B35-36)
+      * at most 1 affliction per spell unless "very closely related"
+
+    * Altered Traits:
+      * +1 energy per +1 character point (advantages added or disadvantages removed)
+      * +1 energy per -5 character points (disadvantages added or advantages removed)
+      * Multiply value of disadvantages with no CR by 2.5
+
+    * AoE:
+      * 2x "Size" for "Linear Measurement" matching radius
+      * +1 per two excluded targets
+
+    * Bestows a (Bonus or Penalty):
+
+      | Modifier | Broad | Moderate | Narrow |
+      | -------- | ----- | -------- | ------ |
+      | ±1       |  5    |  2       |  1     |
+      | ±2       | 10    |  4       |  2     |
+      | ±3       | 20    |  8       |  4     |
+      | ±4       | 40    | 16       |  8     |
+      | ±5       | 80    | 32       | 16     |
+      | etc.     | x2    | x2       | x2     |
+
+* Crafting Penalties:
+
+  |  Percentage of  |   TL3   |   TL8   | Penalty |
+  | Starting Wealth | Example | Example |         |
+  | :-------------- | ------: | ------: | :-----: |
+  |  0.5%           |      $5 |    $100 |    0    |
+  |    1%           |     $10 |    $200 |   -1    |
+  |    2%           |     $20 |    $400 |   -2    |
+  |    5%           |     $50 |  $1,000 |   -3    |
+  |   10%           |    $100 |  $2,000 |   -4    |
+  |   20%           |    $200 |  $4,000 |   -5    |
+  |   50%           |    $500 | $10,000 |   -6    |
 
 * Quick-and-Dirty Rituals and Charms:
   * The physics lab is a basic workspace kit for Charms and Conditional Spells
-  Effective Safe
-  Skill     Threshold
-   7         1
-   8         2
-   9         3
-  10         4
-  11         5
-  12         6
-  13         7
-  14         9
-  15        11
-  16        15
-  17        29
-  18        42
-  19        55
-  20        65
-  21        75
-  +1       +10
+
+  | Effective |      Safe |
+  | Skill     | Threshold |
+  | :-------- | --------: |
+  | <14       | Skill - 6 |
+  |  14       |         9 |
+  |  15       |        11 |
+  |  16       |        15 |
+  |  17       |        29 |
+  |  18       |        42 |
+  |  19       |        55 |
+  |  +1       |       +10 |
 
 ## Spellbook:
-  * Accelerated Healing: Lesser Restore Body (4), 2d healing (4), Target weight (3): 11 NRG
+  * Minor Healing: Lesser Restore Body (4), 2d healing (4), Target weight (3): 11 NRG
+  * Major Healing: 3x(4+Healing+Weight)
+    * Greater Restore Body (4),
+    * "Damage": e.g., 3d (8)
+    * Target weight: e.g. 300 lb (3)
   * Reconfigure Pistol: Lesser Transform Matter (8): 8 NRG
   * Skill boost template:
     * Lesser Control Chance (5)
