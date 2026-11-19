@@ -116,34 +116,23 @@ Roommate: Dan Richardson, apt# 437
 * Cost:
   (Sum of Spell Effects + Sum of Modifiers) * (1 + 2 * # of Greater Effects)
 
-  * Effects:
+  * Spell Effects and Modifiers:
 
-    | Spell Effect    | Cost |
-    | --------------- | ---- |
-    | Sense           |    2 |
-    | Strengthen      |    3 |
-    | Restore         |    4 |
-    | Control Destroy |    5 |
-    | Create          |    6 |
-    | Transform       |    8 |
-
-  * Spell Modifiers:
-
-    |  Duration  | DMG  |  Weight   | Cost |
-    |  --------  | ---  |  ------   | ---- |
-    |  Momentary | 1d   |   10 lb   |  0   |
-    | 10 minutes | 1d+1 |   30 lb   |  1   |
-    | 30 minutes | 1d+2 |  100 lb   |  2   |
-    |  1 hour    | 2d-1 |  300 lb   |  3   |
-    |  3 hours   | 2d   | 1000 lb   |  4   |
-    |  6 hours   | 2d+1 | 3000 lb   |  5   |
-    | 12 hours   | 2d+2 |    5 tons |  6   |
-    |  1 day     | 3d-1 |   15 tons |  7   |
-    |  3 days    | 3d   |   50 tons |  8   |
-    |  1 week    | 3d+1 |  150 tons |  9   |
-    |  2 weeks   | 3d+2 |  450 tons | 10   |
-    |  1 month   | 4d-1 | 1350 tons | 11   |
-    | +1 month   | ...  |   x3      | +1   |
+    | Spell Effect    |  Duration  | DMG  |  Weight   | Cost |
+    | ------          |  --------  | ---  |  ------   | ---- |
+    |                 |  Momentary | 1d   |   10 lb   |  0   |
+    |                 | 10 minutes | 1d+1 |   30 lb   |  1   |
+    | Sense           | 30 minutes | 1d+2 |  100 lb   |  2   |
+    | Strengthen      |  1 hour    | 2d-1 |  300 lb   |  3   |
+    | Restore         |  3 hours   | 2d   | 1000 lb   |  4   |
+    | Control Destroy |  6 hours   | 2d+1 | 3000 lb   |  5   |
+    | Create          | 12 hours   | 2d+2 |    5 tons |  6   |
+    |                 |  1 day     | 3d-1 |   15 tons |  7   |
+    | Transform       |  3 days    | 3d   |   50 tons |  8   |
+    |                 |  1 week    | 3d+1 |  150 tons |  9   |
+    |                 |  2 weeks   | 3d+2 |  450 tons | 10   |
+    |                 |  1 month   | 4d-1 | 1350 tons | 11   |
+    |                 | +1 month   | ...  |   x3      | +1   |
 
     * Afflictions:
       * Stunning is free
