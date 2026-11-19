@@ -135,7 +135,7 @@ Roommate: Dan Richardson, apt# 437
     |                 | +1 month   | ...  |   x3      | +1   |
 
     * Afflictions:
-      * Stunning is free
+      * Stun is free
       * +1 energy per +5% enhancement (B35-36)
       * at most 1 affliction per spell unless "very closely related"
 
@@ -145,7 +145,7 @@ Roommate: Dan Richardson, apt# 437
       * Multiply value of disadvantages with no CR by 2.5
 
     * AoE:
-      * 2x "Size" for "Linear Measurement" matching radius
+      * 2x "Size" for "Linear Measurement" matching radius on "Size and Speed/Range Table" (B550) [Notably 2y is 0]
       * +1 per two excluded targets
 
     * Bestows a (Bonus or Penalty):
@@ -158,6 +158,9 @@ Roommate: Dan Richardson, apt# 437
       | ±4       | 40    | 16       |  8     |
       | ±5       | 80    | 32       | 16     |
       | etc.     | x2    | x2       | x2     |
+
+    * Range:
+      * "Size" for matching "Linear Measurement" on "Size and Speed/Range Table" (B550); minumum 0
 
 * Crafting Penalties:
 
