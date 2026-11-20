@@ -191,19 +191,63 @@ Roommate: Dan Richardson, apt# 437
   |  +1       |       +10 |
 
 ## Spellbook:
-  * Minor Healing: Lesser Restore Body (4), 2d healing (4), Target weight (3): 11 NRG
-  * Major Healing: 3x(4+Healing+Weight)
-    * Greater Restore Body (4),
+  * Minor Healing (at most 2d): Lesser Restore Body (4), 2d (4), 2y (0), 300lbs (3): 11
+  * Major Healing (more than 2d): 3x(4+8+3) = 45
+    * Greater Restore Body (4)
     * "Damage": e.g., 3d (8)
-    * Target weight: e.g. 300 lb (3)
-  * Reconfigure Pistol: Lesser Transform Matter (8): 8 NRG
+    * Range: 2y (0)
+    * Weight: e.g. 300 lb (3)
+  * Reconfigure Pistol: Lesser Transform Matter (8): 8
   * Skill boost template:
     * Lesser Control Chance (5)
     * Duration: e.g. 10 minutes (1)
     * Bestows a (Bonus or Penalty): e.g. +3 Narrow (4)
-    * For example: +3 Guns/Pistol for 10 minutes, 10 NRG
-  * Telecomm:
-    * Altered Trait, add Telecommunication advantage (30 points)
+    * For example: +3 Guns/Pistol for 10 minutes, 10
+
+### WIP Spells:
+  * Intercom (TRPM45): 1x(2+3+10) = 15
+    * Lesser Sense Mind (2)
+    * Duration 1 hour (3)
+    * Range 100 yards (10)
+
+  * Cosmic Pockets: 3x(5+23+3+11) = 126
+    * Greater Control Crossroads (5)
+    * Altered Traits (23):
+      * Lifting ST +12 (Payload Only -60%) (3x12x0.4 = 14.4)
+      * Payload 4 (Cosmic: Extradimensional +50%; Reflexive +40%) (4*1.9 = 7.6)
+    * Weight 300lbs (3)
+    * Duration 1 month (11)
+
+  * Comlink: 3x(2+6+3+9) = 51
+    * Greater Sense Mind (2)
+    * Altered Trait: Telesend (Link Once -80%) (30*0.2 = 6)
+    * Weight 300lbs (3)
+    * Duration 1 week (9)
+
+  * Ringdown: 3x(6+20+3+4+3+9) = 135
+    * Greater Create Energy (6)
+      * Altered Trait: Huge Piercing Attack 6d (48*40% = 19.2)
+        * (Breakable, DR 2, SM -7 or -8, -30%; Can Be Stolen, Quick Contest of ST or DX, -30%)
+    * Lesser Strengthen Body (3)
+      * Bestows a Bonus: +3 to Innate Attack (4)
+    * Weight: 300 lb (3)
+    * Duration: 1 week (9)
+
+  * Group Invisibility: 3x(71) = 213
+    * Greater Control Energy (5)
+    * Altered Trait: Invisibility (40 +60% = 60)
+      * Affects Machines +50%
+      * Can Carry Objects (No encumbrance) +10%
+      * Substantial Only -10%
+    * Range 2y (0)
+    * AoE 2y (0)
+    * Weight 300lbs (3)
+    * Duration 1h (3)
+
+  * Noise Cancelling:
+    * Lesser Sense Energy (2), Lesser? Create Energy (6), Lesser Control Magic (5)
+
+  * Smooth Operator
 
 ### Prepared spells:
   * Conditionals:
