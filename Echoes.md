@@ -225,6 +225,7 @@ Roommate: Dan Richardson, apt# 437
     * Duration 1 week (9)
 
   * Ringdown: 3x(6+20+3+4+3+9) = 135
+    For the next week, the caster manifests a small, fragile physical focus (roughly the size of a wand or tuning fork—SM -7 or -8, DR 2) that projects resonant kinetic/gravitational blasts (**6d pi++**, range 10/100, Acc 3, RoF 1). If struck for more than 2 points of damage, the focus shatters and ends the attack early. An opponent can snatch the focus in combat by winning a **Quick Contest of ST or DX** (and can fire it themselves if they succeed). The ritual also sharpens the caster's motor coordination, granting a **+3 bonus** to raise their *Innate Attack* default from **DX-4** to **DX-1**.
     * Greater Create Energy (6)
       * Altered Trait: Huge Piercing Attack 6d (48*40% = 19.2)
         * (Breakable, DR 2, SM -7 or -8, -30%; Can Be Stolen, Quick Contest of ST or DX, -30%)
