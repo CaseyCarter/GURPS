@@ -145,7 +145,7 @@ Roommate: Dan Richardson, apt# 437
       * Multiply value of disadvantages with no CR by 2.5
 
     * AoE:
-      * 2x "Size" for "Linear Measurement" matching radius on "Size and Speed/Range Table" (B550) [Notably 2y is 0]
+      * 2x "Size" for "Linear Measurement" matching radius on "Size and Speed/Range Table" (B550) [Notably 2y is 0]; minumum 2
       * +1 per two excluded targets
 
     * Bestows a (Bonus or Penalty):
@@ -234,14 +234,14 @@ Roommate: Dan Richardson, apt# 437
     * Weight: 300 lb (3)
     * Duration: 1 week (9)
 
-  * Group Invisibility: 3x(71) = 213
+  * Group Invisibility: 3x(73) = 219
     * Greater Control Energy (5)
     * Altered Trait: Invisibility (40 +60% = 60)
       * Affects Machines +50%
       * Can Carry Objects (No encumbrance) +10%
       * Substantial Only -10%
     * Range 2y (0)
-    * AoE 2y (0)
+    * AoE 5y (2)
     * Weight 300lbs (3)
     * Duration 1h (3)
 
