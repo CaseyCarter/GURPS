@@ -3201,6 +3201,18 @@
 					"cost_adj": "-20%"
 				},
 				{
+					"id": "mbQbLqlBVXsNloYgK",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "m5vBEj5oOWHyzBVRr"
+					},
+					"name": "Gadget Limitations - Breakable (Machine)",
+					"reference": "B117",
+					"local_notes": "If the object is a machine that can break down",
+					"cost_adj": "-5%"
+				},
+				{
 					"id": "mPxMfVCkWH3iLzaSf",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -3211,6 +3223,18 @@
 					"reference": "B117",
 					"local_notes": "-7 or -8",
 					"cost_adj": "-5%"
+				},
+				{
+					"id": "mE3ekFdeeHF6ZbSHF",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Limitation Modifiers.adm",
+						"id": "maM66XUPf48q05UWS"
+					},
+					"name": "Can be Stolen",
+					"reference": "B117",
+					"local_notes": "Win QC",
+					"cost_adj": "-30%"
 				}
 			],
 			"children": [
@@ -3232,7 +3256,7 @@
 					"can_level": true,
 					"levels": 3,
 					"calc": {
-						"points": 23,
+						"points": 12,
 						"level": 3,
 						"current_level": 3
 					}
@@ -3268,12 +3292,12 @@
 					"userdesc": "Software assist (Smart Phone)",
 					"base_points": 40,
 					"calc": {
-						"points": 30
+						"points": 16
 					}
 				}
 			],
 			"calc": {
-				"points": 53
+				"points": 28
 			}
 		},
 		{
