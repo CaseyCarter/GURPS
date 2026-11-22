@@ -191,67 +191,114 @@ Roommate: Dan Richardson, apt# 437
   |  +1       |       +10 |
 
 ## Spellbook:
-  * Minor Healing (at most 2d): Lesser Restore Body (4), 2d (4), 2y (0), 300lbs (3): 11
-  * Major Healing (more than 2d): 3x(4+8+3) = 45
-    * Greater Restore Body (4)
-    * "Damage": e.g., 3d (8)
-    * Range: 2y (0)
-    * Weight: e.g. 300 lb (3)
-  * Reconfigure Pistol: Lesser Transform Matter (8): 8
-  * Skill boost template:
+  * Minor Heal (at most 2d HP, any amount of FP): 1x(4+4+3) = 11
+    * Lesser Restore Body (4)
+      * Heal: 2d (4)
+    * Weight: 300 lb (3)
+
+  * Skill boost template: 1x(5+1+4) = 10
     * Lesser Control Chance (5)
-    * Duration: e.g. 10 minutes (1)
-    * Bestows a (Bonus or Penalty): e.g. +3 Narrow (4)
-    * For example: +3 Guns/Pistol for 10 minutes, 10
+    * Duration: 10 minutes (1)
+    * Bestows a (Bonus or Penalty): e.g. +3 Guns/Pistol Narrow (4)
 
 ### WIP Spells:
+  * Major Healing (more than 2d): 3x(4+8+3) = 45
+    * Greater Restore Body (4)
+      * Heal: 3d (8)
+    * Weight: 300 lb (3)
+
   * Intercom (TRPM45): 1x(2+3+10) = 15
     * Lesser Sense Mind (2)
-    * Duration 1 hour (3)
+    * Duration: 1 hour (3)
     * Range 100 yards (10)
 
-  * Cosmic Pockets: 3x(5+23+3+11) = 126
+  * Cosmic Pockets: 3x(5+21+3+11) = 120
     * Greater Control Crossroads (5)
-    * Altered Traits (23):
-      * Lifting ST +12 (Payload Only -60%) (3x12x0.4 = 14.4)
-      * Payload 4 (Cosmic: Extradimensional +50%; Reflexive +40%) (4*1.9 = 7.6)
-    * Weight 300lbs (3)
-    * Duration 1 month (11)
-
-  * Comlink: 3x(2+6+3+9) = 51
-    * Greater Sense Mind (2)
-    * Altered Trait: Telesend (Link Once -80%) (30*0.2 = 6)
-    * Weight 300lbs (3)
-    * Duration 1 week (9)
-
-  * Ringdown: 3x(6+20+3+4+3+9) = 135
-    For the next week, the caster manifests a small, fragile physical focus (roughly the size of a wand or tuning fork—SM -7 or -8, DR 2) that projects resonant kinetic/gravitational blasts (**6d pi++**, range 10/100, Acc 3, RoF 1). If struck for more than 2 points of damage, the focus shatters and ends the attack early. An opponent can snatch the focus in combat by winning a **Quick Contest of ST or DX** (and can fire it themselves if they succeed). The ritual also sharpens the caster's motor coordination, granting a **+3 bonus** to raise their *Innate Attack* default from **DX-4** to **DX-1**.
-    * Greater Create Energy (6)
-      * Altered Trait: Huge Piercing Attack 6d (48*40% = 19.2)
-        * (Breakable, DR 2, SM -7 or -8, -30%; Can Be Stolen, Quick Contest of ST or DX, -30%)
-    * Lesser Strengthen Body (3)
-      * Bestows a Bonus: +3 to Innate Attack (4)
+      * Altered Trait: Lifting ST +12 (Payload Only -60%) (3x12x40% = 14.4)
+      * Altered Trait: Payload 4 (Cosmic: Extradimensional +50%) (1x4x150% = 6)
     * Weight: 300 lb (3)
-    * Duration: 1 week (9)
+    * Duration: 1 month (11)
 
-  * Group Invisibility: 3x(73) = 219
+  * Comlink: 3x(2+12+3+9) = 69
+    * Greater Sense Mind (2)
+      * Altered Trait: Telesend (30x40% = 12)
+        * Breakable (DR 2, Machine, SM -7/-8) -30%
+        * Can Be Stolen (QC ST or DX) -30%
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
+
+  * Ringdown: 3x(6+20+6+3+9) = 132
+    * Greater Create Energy (6)
+      * Altered Trait: Innate Attack 5d pi++ (8x5x40% = 16)
+        * Breakable (DR 2, Machine, SM -7/-8) -30%
+        * Can Be Stolen (QC ST or DX) -30%
+      * Altered Trait: Innate Attack 2d cr dkb (5x2x60% = 6)
+        * Follow-Up 0%
+        * Double Knockback +20%
+        * Breakable (DR 2, Machine, SM -7/-8) -30%
+        * Can Be Stolen (QC ST or DX) -30%
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
+
+  * Aimbot: 1x(3+4+3+4+3+16+3+5+3+25+3+9) = 81
+    * Lesser Strengthen Body (3)
+      * Increase DX by 30%
+    * Lesser Strengthen Body (3)
+      * Altered Trait: Ambidexterity (5)
+    * Lesser Strengthen Body (3)
+      * Altered Trait: Extra Attack (25)
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
+
+  * Speed Hax: 3x(3+20+3+9) = 105
+    * Greater Strengthen Mind (3)
+      * Altered Trait: Altered Time Rate 1 (100x1x20% = 20)
+        * Breakable (DR 2, Machine, SM -7/-8) -30%
+        * Can Be Stolen (QC ST or DX) -30%
+        * Corrupting 2 -20%
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
+
+  * Guzzle Corruption: 3x(4+30+3+9) = 138
+    * Greater Restore Body (4)
+      * Altered Trait: Regeneration 10HPS (150x20% = 30)
+        * Breakable (DR 2, Machine, SM -7/-8) -30%
+        * Can Be Stolen (QC ST or DX) -30%
+        * Corrupting 2 -20%
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
+
+  * Incognito Mode: 3x(2+6+8+5+5+3+9) = 114
+    Imbues the target with a toggleable localized perimeter field
+    * Lesser Sense Energy (2)
+      Senses visible light incident on the perimeter
+    * Lesser Create Mind (6)
+      Relays visuals of the sensed light directly into the target's visual cortex
+    * Greater Transform Energy (8)
+      Temporarily converts photons of infra-red and visible light into magitrons as they transit the perimeter field
+    * Lesser Destroy Energy (5)
+      Dampens infra-red, visible light, and audio signals generated inside the field
+    * Lesser Control Magic (5)
+      Enables the target to toggle any of the aforementioned effects on and off
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
+
+  * ???: 3x(5+24+3+9) = 123
     * Greater Control Energy (5)
-    * Altered Trait: Invisibility (40 +60% = 60)
-      * Affects Machines +50%
-      * Can Carry Objects (No encumbrance) +10%
-      * Substantial Only -10%
-    * Range 2y (0)
-    * AoE 5y (2)
-    * Weight 300lbs (3)
-    * Duration 1h (3)
+    * Altered Trait: Damage Resistance 8 (5x8x60% = 24)
+      * Force Field +20%
+      * Breakable (DR 2, Machine, SM -7/-8) -30%
+      * Can Be Stolen (QC ST or DX) -30%
+    * Weight: 300 lb (3)
+    * Duration: 1w (9)
 
-  * Noise Cancelling:
-    * Lesser Sense Energy (2), Lesser? Create Energy (6), Lesser Control Magic (5)
+  * Meaty
 
   * Smooth Operator
 
 ### Prepared spells:
   * Conditionals:
   * Charms:
+    * Make healing pills
 
 ## Notes and tracking:
