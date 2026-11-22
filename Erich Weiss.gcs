@@ -3962,27 +3962,20 @@
 			"name": "Physicist things",
 			"children": [
 				{
-					"id": "sChreuXrtKgPlIPS0",
+					"id": "sijXkBIaJVM0UXFJl",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
 						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sobRrRzKAElO2x1dN"
+						"id": "sQg03fYUt1kjNWrnM"
 					},
-					"name": "Physics",
-					"reference": "B213",
+					"name": "Computer Hacking",
+					"reference": "B184",
 					"tags": [
-						"Natural Science"
+						"Criminal",
+						"Spy",
+						"Street"
 					],
-					"replacements": {
-						"TL 6+ Optional Specialty": "Particle Physics"
-					},
 					"difficulty": "iq/vh",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						}
-					],
 					"prereqs": {
 						"type": "prereq_list",
 						"all": true,
@@ -3992,117 +3985,13 @@
 								"has": true,
 								"name": {
 									"compare": "is",
-									"qualifier": "mathematics"
-								},
-								"specialization": {
-									"compare": "is",
-									"qualifier": "applied"
+									"qualifier": "computer programming"
 								}
 							}
 						]
 					},
-					"optional_specialization": "@TL 6+ Optional Specialty@",
-					"tech_level": "8",
-					"points": 4,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -6,
-						"level": 11,
-						"adjusted_level": 11,
-						"points": -11
-					},
-					"calc": {
-						"level": 17,
-						"rsl": "IQ+0"
-					}
-				},
-				{
-					"id": "snanfqTQjJ0bNdHr1",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sGgBbCTe-AwY1nu3W"
-					},
-					"name": "Mathematics",
-					"reference": "B207",
-					"tags": [
-						"Natural Science"
-					],
-					"specialization": "Applied",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Physics"
-							},
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Engineer"
-							},
-							"modifier": -5
-						}
-					],
 					"tech_level": "8",
 					"points": 2,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -6,
-						"level": 11,
-						"adjusted_level": 11,
-						"points": -11
-					},
-					"calc": {
-						"level": 16,
-						"rsl": "IQ-1"
-					}
-				},
-				{
-					"id": "sFtw_8SmXw05CQrZq",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sC4i1u83C2BZjqIDe"
-					},
-					"name": "Mathematics",
-					"reference": "B207",
-					"tags": [
-						"Natural Science"
-					],
-					"specialization": "Computer Science",
-					"difficulty": "iq/h",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -6
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Computer Programming"
-							},
-							"modifier": -5
-						}
-					],
-					"tech_level": "8",
-					"points": 1,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -6,
-						"level": 11,
-						"adjusted_level": 11,
-						"points": -11
-					},
 					"calc": {
 						"level": 15,
 						"rsl": "IQ-2"
@@ -4144,42 +4033,6 @@
 					}
 				},
 				{
-					"id": "sijXkBIaJVM0UXFJl",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sQg03fYUt1kjNWrnM"
-					},
-					"name": "Computer Hacking",
-					"reference": "B184",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/vh",
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "skill_prereq",
-								"has": true,
-								"name": {
-									"compare": "is",
-									"qualifier": "computer programming"
-								}
-							}
-						]
-					},
-					"tech_level": "8",
-					"points": 2,
-					"calc": {
-						"level": 15,
-						"rsl": "IQ-2"
-					}
-				},
-				{
 					"id": "sn48098K27shITkj6",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -4198,159 +4051,6 @@
 					"calc": {
 						"level": 15,
 						"rsl": "IQ-2"
-					}
-				},
-				{
-					"id": "ske1rbm-n5ot4PCZh",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "stFawUEv8gxldDoiC"
-					},
-					"name": "Research",
-					"reference": "B217",
-					"tags": [
-						"Scholarly",
-						"Spy"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Writing"
-							},
-							"modifier": -3
-						}
-					],
-					"prereqs": {
-						"type": "prereq_list",
-						"all": true,
-						"prereqs": [
-							{
-								"type": "prereq_list",
-								"all": true,
-								"when_tl": {
-									"compare": "at_least",
-									"qualifier": 8
-								},
-								"prereqs": [
-									{
-										"type": "skill_prereq",
-										"has": true,
-										"name": {
-											"compare": "is",
-											"qualifier": "Computer Operation"
-										}
-									}
-								]
-							},
-							{
-								"type": "prereq_list",
-								"all": false,
-								"when_tl": {
-									"compare": "at_most",
-									"qualifier": 4
-								},
-								"prereqs": [
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "starts_with",
-											"qualifier": "Language"
-										},
-										"notes": {
-											"compare": "contains",
-											"qualifier": "Written (Native"
-										}
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "starts_with",
-											"qualifier": "Language"
-										},
-										"notes": {
-											"compare": "contains",
-											"qualifier": "Written (Accented)"
-										}
-									},
-									{
-										"type": "trait_prereq",
-										"has": true,
-										"name": {
-											"compare": "starts_with",
-											"qualifier": "Language"
-										},
-										"notes": {
-											"compare": "contains",
-											"qualifier": "Written (Broken)"
-										}
-									}
-								]
-							}
-						]
-					},
-					"tech_level": "8",
-					"points": 1,
-					"defaulted_from": {
-						"type": "skill",
-						"name": {
-							"compare": "is",
-							"qualifier": "Writing"
-						},
-						"specialization": {
-							"compare": "is"
-						},
-						"modifier": -3,
-						"level": 13,
-						"adjusted_level": 13,
-						"points": -13
-					},
-					"calc": {
-						"level": 16,
-						"rsl": "IQ-1"
-					}
-				},
-				{
-					"id": "sqydy5M4HcCgq5Ktr",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sHuT7RWMID47mVbzP"
-					},
-					"name": "Writing",
-					"reference": "B228",
-					"tags": [
-						"Arts",
-						"Entertainment",
-						"Scholarly"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						}
-					],
-					"points": 1,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 12,
-						"adjusted_level": 12,
-						"points": -12
-					},
-					"calc": {
-						"level": 16,
-						"rsl": "IQ-1"
 					}
 				},
 				{
@@ -4551,6 +4251,306 @@
 						"level": 13,
 						"adjusted_level": 13,
 						"points": -13
+					},
+					"calc": {
+						"level": 16,
+						"rsl": "IQ-1"
+					}
+				},
+				{
+					"id": "snanfqTQjJ0bNdHr1",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sGgBbCTe-AwY1nu3W"
+					},
+					"name": "Mathematics",
+					"reference": "B207",
+					"tags": [
+						"Natural Science"
+					],
+					"specialization": "Applied",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Physics"
+							},
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Engineer"
+							},
+							"modifier": -5
+						}
+					],
+					"tech_level": "8",
+					"points": 2,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 11,
+						"adjusted_level": 11,
+						"points": -11
+					},
+					"calc": {
+						"level": 16,
+						"rsl": "IQ-1"
+					}
+				},
+				{
+					"id": "sFtw_8SmXw05CQrZq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sC4i1u83C2BZjqIDe"
+					},
+					"name": "Mathematics",
+					"reference": "B207",
+					"tags": [
+						"Natural Science"
+					],
+					"specialization": "Computer Science",
+					"difficulty": "iq/h",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Computer Programming"
+							},
+							"modifier": -5
+						}
+					],
+					"tech_level": "8",
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 11,
+						"adjusted_level": 11,
+						"points": -11
+					},
+					"calc": {
+						"level": 15,
+						"rsl": "IQ-2"
+					}
+				},
+				{
+					"id": "sChreuXrtKgPlIPS0",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sobRrRzKAElO2x1dN"
+					},
+					"name": "Physics",
+					"reference": "B213",
+					"tags": [
+						"Natural Science"
+					],
+					"replacements": {
+						"TL 6+ Optional Specialty": "Particle Physics"
+					},
+					"difficulty": "iq/vh",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -6
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "skill_prereq",
+								"has": true,
+								"name": {
+									"compare": "is",
+									"qualifier": "mathematics"
+								},
+								"specialization": {
+									"compare": "is",
+									"qualifier": "applied"
+								}
+							}
+						]
+					},
+					"optional_specialization": "@TL 6+ Optional Specialty@",
+					"tech_level": "8",
+					"points": 4,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -6,
+						"level": 11,
+						"adjusted_level": 11,
+						"points": -11
+					},
+					"calc": {
+						"level": 17,
+						"rsl": "IQ+0"
+					}
+				},
+				{
+					"id": "ske1rbm-n5ot4PCZh",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "stFawUEv8gxldDoiC"
+					},
+					"name": "Research",
+					"reference": "B217",
+					"tags": [
+						"Scholarly",
+						"Spy"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Writing"
+							},
+							"modifier": -3
+						}
+					],
+					"prereqs": {
+						"type": "prereq_list",
+						"all": true,
+						"prereqs": [
+							{
+								"type": "prereq_list",
+								"all": true,
+								"when_tl": {
+									"compare": "at_least",
+									"qualifier": 8
+								},
+								"prereqs": [
+									{
+										"type": "skill_prereq",
+										"has": true,
+										"name": {
+											"compare": "is",
+											"qualifier": "Computer Operation"
+										}
+									}
+								]
+							},
+							{
+								"type": "prereq_list",
+								"all": false,
+								"when_tl": {
+									"compare": "at_most",
+									"qualifier": 4
+								},
+								"prereqs": [
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Language"
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "Written (Native"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Language"
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "Written (Accented)"
+										}
+									},
+									{
+										"type": "trait_prereq",
+										"has": true,
+										"name": {
+											"compare": "starts_with",
+											"qualifier": "Language"
+										},
+										"notes": {
+											"compare": "contains",
+											"qualifier": "Written (Broken)"
+										}
+									}
+								]
+							}
+						]
+					},
+					"tech_level": "8",
+					"points": 1,
+					"defaulted_from": {
+						"type": "skill",
+						"name": {
+							"compare": "is",
+							"qualifier": "Writing"
+						},
+						"specialization": {
+							"compare": "is"
+						},
+						"modifier": -3,
+						"level": 13,
+						"adjusted_level": 13,
+						"points": -13
+					},
+					"calc": {
+						"level": 16,
+						"rsl": "IQ-1"
+					}
+				},
+				{
+					"id": "sqydy5M4HcCgq5Ktr",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sHuT7RWMID47mVbzP"
+					},
+					"name": "Writing",
+					"reference": "B228",
+					"tags": [
+						"Arts",
+						"Entertainment",
+						"Scholarly"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 12,
+						"adjusted_level": 12,
+						"points": -12
 					},
 					"calc": {
 						"level": 16,
@@ -4845,57 +4845,6 @@
 					}
 				},
 				{
-					"id": "spSC4y_vj6fKzjoCw",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "sTZDWJpkF7w7CYYRT"
-					},
-					"name": "Speed-Reading",
-					"reference": "B222",
-					"tags": [
-						"Scholarly"
-					],
-					"difficulty": "iq/a",
-					"points": 1,
-					"calc": {
-						"level": 16,
-						"rsl": "IQ-1"
-					}
-				},
-				{
-					"id": "sML2oy1srD-sMkfAq",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s4I5dPhJgOFfh57YM"
-					},
-					"name": "Running",
-					"reference": "B218",
-					"tags": [
-						"Athletic"
-					],
-					"difficulty": "ht/a",
-					"defaults": [
-						{
-							"type": "ht",
-							"modifier": -5
-						}
-					],
-					"points": 1,
-					"defaulted_from": {
-						"type": "ht",
-						"modifier": -5,
-						"level": 7,
-						"adjusted_level": 7,
-						"points": -7
-					},
-					"calc": {
-						"level": 11,
-						"rsl": "HT-1"
-					}
-				},
-				{
 					"id": "sOpQO4qTQHuTGCE77",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -4951,6 +4900,48 @@
 					"calc": {
 						"level": 12,
 						"rsl": "DX+0"
+					}
+				},
+				{
+					"id": "shaQRA1s-p7PyR7u8",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s3hoLmN-a9_mOr2Kh"
+					},
+					"name": "Holdout",
+					"reference": "B200",
+					"tags": [
+						"Criminal",
+						"Spy",
+						"Street"
+					],
+					"difficulty": "iq/a",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": {
+								"compare": "is",
+								"qualifier": "Sleight of Hand"
+							},
+							"modifier": -3
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "iq",
+						"modifier": -5,
+						"level": 12,
+						"adjusted_level": 12,
+						"points": -12
+					},
+					"calc": {
+						"level": 16,
+						"rsl": "IQ-1"
 					}
 				},
 				{
@@ -5017,48 +5008,6 @@
 					}
 				},
 				{
-					"id": "shaQRA1s-p7PyR7u8",
-					"source": {
-						"library": "richardwilkes/gcs_master_library",
-						"path": "Basic Set/Basic Set Skills.skl",
-						"id": "s3hoLmN-a9_mOr2Kh"
-					},
-					"name": "Holdout",
-					"reference": "B200",
-					"tags": [
-						"Criminal",
-						"Spy",
-						"Street"
-					],
-					"difficulty": "iq/a",
-					"defaults": [
-						{
-							"type": "iq",
-							"modifier": -5
-						},
-						{
-							"type": "skill",
-							"name": {
-								"compare": "is",
-								"qualifier": "Sleight of Hand"
-							},
-							"modifier": -3
-						}
-					],
-					"points": 1,
-					"defaulted_from": {
-						"type": "iq",
-						"modifier": -5,
-						"level": 12,
-						"adjusted_level": 12,
-						"points": -12
-					},
-					"calc": {
-						"level": 16,
-						"rsl": "IQ-1"
-					}
-				},
-				{
 					"id": "s5W5FXX6DM1YPUkIk",
 					"source": {
 						"library": "richardwilkes/gcs_master_library",
@@ -5100,6 +5049,57 @@
 					"calc": {
 						"level": 14,
 						"rsl": "Per-1"
+					}
+				},
+				{
+					"id": "sML2oy1srD-sMkfAq",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "s4I5dPhJgOFfh57YM"
+					},
+					"name": "Running",
+					"reference": "B218",
+					"tags": [
+						"Athletic"
+					],
+					"difficulty": "ht/a",
+					"defaults": [
+						{
+							"type": "ht",
+							"modifier": -5
+						}
+					],
+					"points": 1,
+					"defaulted_from": {
+						"type": "ht",
+						"modifier": -5,
+						"level": 7,
+						"adjusted_level": 7,
+						"points": -7
+					},
+					"calc": {
+						"level": 11,
+						"rsl": "HT-1"
+					}
+				},
+				{
+					"id": "spSC4y_vj6fKzjoCw",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Basic Set/Basic Set Skills.skl",
+						"id": "sTZDWJpkF7w7CYYRT"
+					},
+					"name": "Speed-Reading",
+					"reference": "B222",
+					"tags": [
+						"Scholarly"
+					],
+					"difficulty": "iq/a",
+					"points": 1,
+					"calc": {
+						"level": 16,
+						"rsl": "IQ-1"
 					}
 				}
 			]
@@ -5892,7 +5892,7 @@
 		}
 	],
 	"created_date": "2026-08-11T10:12:39-07:00",
-	"modified_date": "2026-11-18T22:34:37-08:00",
+	"modified_date": "2026-11-22T10:44:06-08:00",
 	"calc": {
 		"swing": "1d-2",
 		"thrust": "1d-3",
