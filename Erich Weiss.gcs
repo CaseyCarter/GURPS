@@ -3341,49 +3341,6 @@
 			}
 		},
 		{
-			"id": "tIRWRxfJB7JSDTesK",
-			"source": {
-				"library": "richardwilkes/gcs_master_library",
-				"path": "Basic Set/Basic Set Traits.adq",
-				"id": "tLx7cgxRuxXHqkcb5"
-			},
-			"name": "Delusion (@Belief@)",
-			"reference": "B130",
-			"tags": [
-				"Disadvantage",
-				"Mental"
-			],
-			"userdesc": "Aliens or magical disguise? :shrug: we may never know.",
-			"replacements": {
-				"Belief": "Squirrel assassins"
-			},
-			"modifiers": [
-				{
-					"id": "m6gESlCllalC1oQzN",
-					"name": "Minor",
-					"reference": "B130",
-					"cost_adj": "-5",
-					"disabled": true
-				},
-				{
-					"id": "meCYKSnRJgRRcXwwe",
-					"name": "Major",
-					"reference": "B130",
-					"cost_adj": "-10"
-				},
-				{
-					"id": "mM1iqMUAghKfNJjUA",
-					"name": "Severe",
-					"reference": "B130",
-					"cost_adj": "-15",
-					"disabled": true
-				}
-			],
-			"calc": {
-				"points": -10
-			}
-		},
-		{
 			"id": "TewMFFuwjcpceDXvU",
 			"name": "Schizoaffective Disorder",
 			"replacements": {
